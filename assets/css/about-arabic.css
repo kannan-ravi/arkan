@@ -1,0 +1,149 @@
+/* HERO STYLE */
+.hero-container.arabic h1 {
+  direction: rtl;
+}
+
+.hero-container.arabic h1::before {
+  background-image: linear-gradient(135deg, var(--gray) 50%, var(--orange) 50%);
+}
+
+/* WHO WE ARE STYLE */
+.who-section.arabic .who-title {
+  display: flex;
+  justify-content: flex-end;
+}
+.who-section.arabic .who-title h2 {
+  direction: rtl;
+}
+
+.who-section.arabic .who-content-container p {
+  direction: rtl;
+}
+
+/* MISSION & VISION STYLE */
+.mv-container.arabic .mv-single-container .mv-content h3,
+.mv-container.arabic .mv-single-container .mv-content p {
+  direction: rtl;
+}
+
+/* COUNTER STYLE */
+.counter-container.arabic .counter-item h3 {
+  direction: rtl;
+}
+
+.counter-container.arabic .counter-item p {
+  direction: rtl;
+}
+
+.counter-container.arabic .counter-item:first-child {
+  order: 4;
+}
+.counter-container.arabic .counter-item:nth-child(2) {
+  order: 3;
+}
+.counter-container.arabic .counter-item:nth-child(3) {
+  order: 2;
+}
+.counter-container.arabic .counter-item:last-child {
+  order: 1;
+}
+
+/* TEAM MEMBER */
+.team-container.arabic .team-title h2 {
+  direction: rtl;
+}
+
+.team-container.arabic
+  .team-slider-container
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .team-card-wrapper
+  .team-card
+  .team-card-info
+  p {
+  direction: rtl;
+}
+
+/* GENERAL MANAGER SPPECH */
+.speecher-section.arabic .speecher-title {
+  display: flex;
+  justify-content: flex-end;
+}
+.speecher-section.arabic .speecher-title h2 {
+  direction: rtl;
+}
+
+.speecher-section.arabic
+  .speecher-container
+  .speecher-image-container
+  .speecher-inner-image
+  .speecher-info
+  p {
+  direction: rtl;
+}
+.speecher-section.arabic
+  .speecher-container
+  .speecher-content-container
+  p {
+  direction: rtl;
+}
+.speecher-section.arabic
+  .speecher-container
+  .speecher-content-container
+  p:nth-child(5) {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .who-section.arabic .who-content-container {
+    order: 2;
+  }
+
+  .who-section.arabic .who-image-container {
+    order: 1;
+  }
+  .who-section.arabic .who-image-container .image-wrapper::before {
+    right: unset;
+    left: -20px;
+  }
+
+  /* MISSION & VISION STYLE */
+  .mv-container.arabic .mv-single-container:first-child {
+    order: 2;
+  }
+  .mv-container.arabic .mv-single-container:last-child {
+    order: 1;
+  }
+
+  /* GENERAL MANAGER SPEECH STYLE */
+  .speecher-section.arabic .speecher-container .speecher-image-container {
+    order: 1;
+    border-right: 1px solid var(--gray);
+    padding-right: 2rem;
+    border-left: unset;
+    padding-left: unset;
+    justify-items: flex-end;
+  }
+  .speecher-section.arabic .speecher-container .speecher-content-container {
+    order: 2;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .speecher-section.arabic .speecher-container .speecher-content-container {
+    padding-left: 4rem;
+  }
+  .speecher-section.arabic .speecher-container .speecher-image-container {
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 1400px) {
+  .speecher-section.arabic .speecher-container .speecher-content-container {
+    padding-left: 6rem;
+  }
+  .speecher-section.arabic .speecher-container .speecher-image-container {
+    padding-right: 6rem;
+  }
+}

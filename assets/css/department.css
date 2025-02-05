@@ -1,0 +1,347 @@
+.hero-section {
+  position: relative;
+  background: url("../img/department/construction-maintenance/hero-bg.jpg")
+    no-repeat center center/cover;
+  height: 300px;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-container {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  width: calc(100% - 40px);
+  z-index: 2;
+}
+
+.hero-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.hero-breadcrumb {
+  padding: 0;
+  margin: 0;
+  color: white;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.hero-breadcrumb-item {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+}
+
+.hero-breadcrumb-item a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.hero-breadcrumb-item.active {
+  color: var(--orange) !important;
+}
+
+.hero-breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+/* DROPDOWN */
+.department-section {
+  padding: 1rem 0 4rem 0;
+}
+.department-dropdown-button {
+  padding: 0.6rem 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: var(--white);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.department-dropdown-container {
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.department-dropdown-container.active {
+  max-height: 990px;
+}
+
+.department-dropdown-menu {
+  padding: 0;
+  list-style: none;
+}
+
+.department-dropdown-link {
+  text-decoration: none;
+  color: var(--black);
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  transition: all 0.3s ease;
+}
+
+.department-dropdown-link.active {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.department-dropdown-link:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.department-dropdown-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.department-dropdown-link i {
+  color: var(--orange);
+}
+
+.department-dropdown-link:hover i {
+  color: var(--black);
+}
+
+.department-dropdown-link.active i {
+  color: var(--black);
+}
+
+.department-content {
+  padding: 2rem 0 0 0;
+}
+
+.department-image {
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    height: 345px;
+}
+
+
+.department-image img {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  transition: all 1s ease;
+}
+
+/* 
+.department-image:hover img {
+  scale: 1.2
+}
+
+.department-image:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border: 10px solid var(--orange);
+}
+*/
+
+.department-content-text {
+  padding: 2rem 0;
+}
+.department-content-text.points {
+  padding: 2rem 0 0rem 0;
+}
+
+.department-content-text p {
+  margin-bottom: 1.4rem;
+}
+
+.department-content-list li {
+  margin-bottom: 1.4rem;
+  line-height: 1.6s;
+}
+
+/* SERVICE POINT */
+.service-points-lists {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  column-gap: 0.5rem !important;
+  row-gap: 1rem !important;
+  border: none !important;
+}
+
+.service-points-link {
+  border: 1px solid var(--gray) !important;
+  border-radius: 99px !important;
+  text-align: center;
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+  color: var(--black) !important;
+}
+
+.service-points-link.active {
+  background-color: var(--orange) !important;
+  color: var(--black) !important;
+}
+
+.service-points-content {
+  padding-top: 1.4rem;
+}
+
+.service-points-content li {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.department-ad-container {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.department-ad-container img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.department-ad-info {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  background-color: var(--white);
+  padding: 0.8rem 0rem;
+  border-radius: 4px;
+  min-width: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+}
+
+.department-ad-info i {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 0.6rem;
+  color: var(--white);
+  padding: 0.6rem;
+  border-radius: 50%;
+  background-color: var(--orange);
+  border: 4px solid #fb8c04;
+}
+
+.department-ad-info p {
+  margin-bottom: 0;
+}
+
+.department-ad-text {
+  font-size: 0.8rem;
+  color: var(--orange);
+}
+.department-ad-number {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .department-ad-container {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-container {
+    bottom: 60px;
+  }
+
+  .department-container {
+    display: grid;
+    column-gap: 1rem;
+    margin-top: 2rem;
+    grid-template-areas:
+      "content pages"
+      "content ad"
+      "content ad"
+      "content ad"
+      "content ad"
+      "content ad"
+      "content ad";
+  }
+
+  .dropdown-wrapper {
+    grid-area: pages;
+  }
+
+  .department-content {
+    grid-area: content;
+    padding: 0;
+    height: fit-content;
+  }
+
+  .department-ad-container {
+    grid-area: ad;
+    align-self: flex-start;
+    padding: 0;
+  }
+
+  .department-dropdown-button {
+    display: none;
+  }
+
+  .department-dropdown-container {
+    max-height: 999px;
+  }
+
+  .department-dropdown-link {
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 1rem 1rem;
+  }
+
+  .department-ad-info {
+    min-width: 260px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .department-container {
+    display: grid;
+    column-gap: 2rem;
+    margin-top: 4rem;
+  }
+  .service-points-lists {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}

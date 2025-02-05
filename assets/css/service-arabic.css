@@ -1,0 +1,66 @@
+/* HERO STYLE */
+.hero-container.arabic h1 {
+  direction: rtl;
+}
+
+.hero-container.arabic h1::before {
+  background-image: linear-gradient(135deg, var(--gray) 50%, var(--orange) 50%);
+}
+
+/* SERVICE STYLE */
+.service-container.arabic .dropdown-wrapper .service-dropdown-button {
+  direction: rtl;
+}
+.service-container.arabic
+  .dropdown-wrapper
+  .service-dropdown-container
+  .service-dropdown-menu,
+.service-container.arabic .service-content-container .service-content h2 {
+  direction: rtl;
+}
+
+.service-container.arabic
+  .service-content-container
+  .service-content
+  .service-points {
+  direction: rtl;
+  padding-right: 1.4rem;
+}
+
+/* PROJECTS STYLE */
+.projects-section.arabic .projects-title {
+  display: flex;
+  justify-content: flex-end;
+}
+.projects-section.arabic .projects-title h2 {
+  direction: rtl;
+}
+.projects-section.arabic .projects-container {
+  direction: rtl;
+}
+
+/* REQUEST QUOTA STYLE */
+.request-container.arabic {
+  direction: rtl;
+}
+.request-container.arabic
+  .request-contact-container
+  .request-contact
+  .request-contact-icon {
+  padding: 0 0 0 2rem;
+  border-left: 1px solid var(--gray);
+  border-right: none;
+}
+
+.request-container.arabic
+  .request-contact-container
+  .request-contact
+  .request-contact-info {
+  padding: 0 2rem 0 0;
+}
+
+@media (min-width: 992px) {
+  .service-container.arabic {
+    direction: rtl;
+  }
+}

@@ -1,0 +1,136 @@
+header.arabic .header-nav-container .header-nav .logo {
+  flex-direction: row-reverse;
+}
+  
+header.arabic
+  .header-nav-container
+  .header-nav
+  .header-navbar
+  .download-brochure
+  a {
+  direction: rtl;
+}
+header.arabic
+  .header-nav-container
+  .header-nav
+  .header-navbar
+  .nav-list
+  .nav-item
+  .nav-link {
+  direction: rtl;
+}
+
+header.arabic .header-top-container .header-top {
+    flex-direction: row-reverse;
+}
+
+header.arabic .header-top-container {
+    background: linear-gradient(
+    45deg,
+    var(--orange) 70%,
+    var(--white) 70%
+  );
+}
+
+
+@media (min-width: 992px) {
+  header.arabic .header-nav-container .header-nav {
+    flex-direction: row-reverse;
+  }
+
+  header.arabic .header-nav-container .header-nav .header-navbar {
+    flex-direction: row-reverse;
+  }
+  
+  header.arabic
+  .header-nav-container
+  .header-nav
+  .header-navbar
+  .nav-list {
+    flex-direction: row-reverse;
+  }
+  header.arabic
+  .header-nav-container
+  .header-nav
+  .header-navbar
+  .nav-list {
+    flex-direction: row-reverse;
+  }
+  
+  header.arabic .header-nav-container .header-nav .header-navbar .nav-list {
+    flex-direction: row-reverse;
+  }
+  header.arabic .header-nav-container .header-nav .header-navbar .nav-list .nav-item:last-child {
+    flex-direction: row-reverse;
+    margin-right: 1rem;
+  } 
+
+  header.arabic .header-top-container .header-top,
+  header.arabic .header-top-container .header-top .opening-hours,
+  header.arabic
+    .header-top-container
+    .header-top
+    .location-contact-info
+    .location,
+  header.arabic .header-top-container .header-top .location-contact-info {
+    flex-direction: row-reverse;
+  }
+
+  header.arabic
+    .header-top-container
+    .header-top
+    .location-contact-info
+    .social-media {
+    flex-direction: row-reverse;
+    margin: 0 0 0 2rem;
+  }
+
+  header.arabic .header-top-container {
+    background: linear-gradient(90deg, var(--orange) 50%, var(--white) 50%);
+  }
+
+  header.arabic .header-top-container .header-top {
+    background: linear-gradient(45deg, var(--orange) 18%, var(--white) 18%);
+  }
+}
+
+@media (min-width: 1200px) {
+  header.arabic .header-top-container {
+    background: linear-gradient(90deg, var(--orange) 50%, var(--white) 50%);
+  }
+
+  header.arabic .header-top-container .header-top {
+    background: linear-gradient(45deg, var(--orange) 21.5%, var(--white) 21.5%);
+  }
+  header.arabic .header-nav-container {
+    background: linear-gradient(45deg, var(--white) 50%, var(--orange) 50%);
+  }
+  header.arabic .header-nav-container .header-nav {
+    background: linear-gradient(45deg, var(--white) 25.5%, var(--orange) 25.5%);
+  }
+  header.arabic
+    .header-nav-container
+    .header-nav
+    .header-navbar
+    .download-brochure {
+    margin-left: 0;
+    margin-right: 2.5rem;
+  }
+
+  header.arabic
+    .header-top-container
+    .header-top
+    .location-contact-info
+    .social-media {
+    margin: 0 0 0 6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  header.arabic .header-top-container .header-top {
+    background: linear-gradient(45deg, var(--orange) 18%, var(--white) 18%);
+  }
+  header.arabic .header-nav-container .header-nav {
+    background: linear-gradient(45deg, var(--white) 23%, var(--orange) 23%);
+  }
+}

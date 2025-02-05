@@ -1,0 +1,76 @@
+.hero-container.arabic {
+  left: unset;
+  right: 20px;
+}
+
+.hero-container.arabic h1 {
+  direction: rtl;
+}
+
+.hero-container.arabic .hero-breadcrumb {
+  direction: rtl;
+}
+
+.department-container.arabic .department-dropdown-button {
+  direction: rtl;
+}
+
+.department-container.arabic
+  .department-dropdown-container
+  .department-dropdown-menu
+  .department-dropdown-list
+  .department-dropdown-link {
+  direction: rtl;
+}
+
+.department-container.arabic
+  .department-dropdown-container
+  .department-dropdown-menu
+  .department-dropdown-list
+  .department-dropdown-link
+  .fa-chevron-right {
+  rotate: 180deg;
+}
+
+.department-container.arabic .department-content .department-content-text p {
+  direction: rtl;
+}
+
+.department-container.arabic .department-content .service-points-container {
+  direction: rtl;
+}
+.department-container.arabic
+  .department-content
+  .service-points-container
+  .tab-content
+  .tab-pane
+  .service-points-content {
+  padding-right: 2rem;
+}
+
+.department-container.arabic .department-ad-container .department-ad-info i {
+  left: unset;
+  right: -20px;
+}
+.department-container.arabic .department-ad-container img {
+  transform: scaleX(-1);
+}
+.department-container.arabic .department-content .department-content-list {
+  direction: rtl;
+}
+
+@media (min-width: 992px) {
+  .department-container.arabic {
+    display: grid;
+    column-gap: 1rem;
+    margin-top: 2rem;
+    grid-template-areas:
+      "pages content"
+      "ad content"
+      "ad content"
+      "ad content"
+      "ad content"
+      "ad content"
+      "ad content";
+  }
+}

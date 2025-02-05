@@ -1,0 +1,442 @@
+.header-top-container {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(251, 140, 3, 1) 30%
+  );
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  gap: 1rem;
+}
+
+.header-top .hamburger-icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.header-top .opening-hours {
+  display: none;
+}
+
+.header-top .location-contact-info .location {
+  display: none;
+}
+
+.header-top .location-contact-info .social-media {
+  display: none;
+}
+
+.header-top .location-contact-info .lang-select {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-top .location-contact-info .lang-select select {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.header-nav-container {
+  background-color: #fb8c03;
+}
+
+.header-nav {
+}
+
+.header-nav .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.header-nav .logo img {
+  max-width: 70px;
+  height: 100%;
+}
+
+.header-nav .logo .logo-text {
+  margin-bottom: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+.header-nav .logo .logo-small-text {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.header-nav .header-navbar {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+  top: 0;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+  transition: left 0.5s ease-in-out;
+  z-index: 10;
+  padding: 4rem 2rem 4rem 2rem;
+  flex-wrap: nowrap;
+}
+
+.header-nav .header-navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.header-nav .header-navbar .nav-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.header-nav .header-navbar.active {
+  left: 0;
+}
+
+.header-navbar .nav-item {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: white;
+}
+
+.header-navbar .h-line {
+  width: 100%;
+  min-height: 2px;
+  background-color: var(--gray);
+  margin: 0.8rem 0 0rem 0;
+}
+
+.header-navbar .download-brochure {
+  font-weight: 400;
+  color: white;
+  background-color: var(--orange);
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-navbar .download-brochure a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-navbar .close-button {
+  padding: 1rem;
+  color: gray;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.8rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-info .contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.4rem;
+}
+
+.contact-item .contact-item-icon {
+  border: 1px solid var(--orange);
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  height: 44px;
+  margin-top: 0.5rem;
+}
+
+.contact-item .contact-item-icon i {
+  color: var(--orange);
+  font-size: 1.2rem;
+}
+
+.contact-item .contact-item-content p {
+  margin: 0;
+  color: var(--orange);
+  font-size: 1.2rem;
+}
+.contact-item .contact-item-content span {
+  margin: 0;
+  color: var(--white);
+}
+
+@media (min-width: 992px) {
+  .header-top-container {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(251, 140, 3, 1) 50%
+    );
+  }
+
+  .header-top {
+    padding: 8px 0;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 1) 82%,
+      rgba(251, 140, 3, 1) 82%
+    );
+  }
+  .header-top .hamburger-icon {
+    display: none;
+  }
+
+  .header-top .opening-hours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .header-top .opening-hours i {
+    color: var(--orange);
+  }
+
+  .header-top .location-contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .header-top .location-contact-info .location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .header-top .location-contact-info .social-media {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.9rem;
+    margin: 0 2rem 0 0;
+  }
+
+  .header-top .location-contact-info .social-media a {
+    text-decoration: none;
+    color: var(--gray);
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-nav .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .header-nav .logo img {
+    max-width: 50px;
+    height: 100%;
+  }
+
+  .header-nav .header-navbar {
+    position: static;
+    background-color: transparent;
+    min-height: unset;
+    overflow-y: unset;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+  }
+
+  .header-nav .header-navbar .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .header-navbar .nav-item {
+    font-size: 0.8rem;
+    text-wrap: nowrap;
+    padding: 1.75rem 1rem;
+    color: var(--black);
+    font-weight: 600;
+  }
+
+  .header-navbar .h-line {
+    display: none;
+  }
+  
+  .header-navbar .nav-item.active {
+      background-color: #FFF3E6;
+  }
+
+  .header-navbar .download-brochure {
+    font-size: 0.8rem;
+    text-wrap: nowrap;
+    background-color: var(--black);
+    padding: 0.5rem 1rem;
+		
+  }
+  .header-navbar .close-button {
+    display: none;
+  }
+
+  .contact-info {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-top {
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 1) 71.5%,
+      rgba(251, 140, 3, 1) 71.5%
+    );
+  }
+  .header-top .location-contact-info .location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .header-top .location-contact-info .social-media {
+    margin-right: 0rem;
+  }
+  
+  .header-top .location-contact-info .location {
+      margin-right: 2.5rem;
+  }
+
+  .header-nav-container {
+    background: linear-gradient(
+      90deg,
+      rgba(251, 140, 3, 1) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+
+  .header-nav {
+    background: linear-gradient(
+      45deg,
+      rgba(251, 140, 3, 1) 77.5%,
+      rgba(255, 255, 255, 1) 77.5%
+    );
+  }
+  
+  .header-nav .logo {
+    gap: 0.5rem;
+  }
+  
+  .header-nav .logo .logo-text {
+    font-size: 1rem;
+  }
+  .header-nav .logo .small-text {
+    font-size: 0.9rem;
+  }
+
+
+  .header-navbar .nav-item {
+    font-size: 0.9rem;
+    height: 100%;
+    padding: 1.85rem 0.6rem;
+  }
+  
+
+  .header-navbar .nav-item i {
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 0 0 0 0.5rem;
+    color: var(--white);
+  }
+  
+  .header-navbar .nav-item:last-child {
+    padding: 0;
+  }
+
+  .header-navbar .download-brochure {
+    font-size: 0.9rem;
+    margin-left: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header-top {
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 1) 75%,
+      rgba(251, 140, 3, 1) 75%
+    );
+  }
+  .header-top .location-contact-info .social-media {
+    margin-right: 0rem;
+  }
+  .header-top .location-contact-info .location {
+    margin-right: 3rem;
+  }
+  .header-nav {
+    background: linear-gradient(
+      45deg,
+      rgba(251, 140, 3, 1) 80%,
+      rgba(255, 255, 255, 1) 80%
+    );
+  }
+  
+  .header-nav .logo .logo-text {
+    font-size: 1.1rem;
+  }
+  .header-nav .logo .logo-small-text {
+    font-size: 0.9rem;
+  }
+
+  .header-nav .header-navbar .nav-list {
+    gap: 0rem;
+  }
+  .header-navbar .nav-item {
+    font-size: 1rem;
+    padding: 1.85rem 1rem;
+  }
+
+  .header-navbar .download-brochure {
+    font-size: 1rem;
+    margin-left: 3rem;
+  }
+}
+
+
+
