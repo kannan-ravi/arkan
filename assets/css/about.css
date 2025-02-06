@@ -413,9 +413,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .speecher-image img {
   width: 100%;
+  max-width: 320px;
 }
 .speecher-position {
   color: var(--orange);
