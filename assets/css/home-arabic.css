@@ -10,6 +10,10 @@
   transform: translateX(100%);
 }
 
+.hero-container.arabic .swiper .hero-carousel-item .hero-slider-image {
+  transform: scale(-1);
+}
+
 .hero-container.arabic
   .swiper
   .hero-carousel-item.active
