@@ -11,7 +11,7 @@
 }
 
 .hero-container.arabic .swiper .hero-carousel-item .hero-slider-image {
-  transform: scale(-1);
+  transform: scaleX(-1);
 }
 
 .hero-container.arabic
