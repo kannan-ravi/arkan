@@ -13,7 +13,7 @@
         <div class="projects-image">
           <img src="./assets/img/service/projects/projects-image-one.jpg" alt="projects">
           <div class="projects-image-content one">
-            <p class="projects-image-number">30+</p>
+            <p class="projects-image-number" data-locale="service-construction-projects-number">30+</p>
             <p class="projects-image-text" data-locale="service-construction-projects-image-one-description">High-value projects</p>
           </div>
         </div>

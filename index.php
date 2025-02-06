@@ -22,6 +22,10 @@
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<style>
+
+
+	</style>
 </head>
 
 <body>
@@ -118,7 +122,7 @@
               </div>
               <img src="./assets/img/home/explore/explore-arrow.png" alt="Explore Arrow" class="explore-image-three">
               <div class="explore-employee-count">
-                <p class="mb-0">1300+</p>
+                <p class="mb-0" data-locale="home-explore-no">1300+</p>
                 <span class="text-uppercase" data-locale="home-explore-employees">employees</span>
               </div>
             </div>
@@ -443,7 +447,7 @@
       <div class="container d-lg-flex align-items-lg-center justify-content-lg-center">
         <div class="faq-container" data-lang-class="home-faq">
           <div class="faq-content-container">
-            <p class="faq-badge">Frequently Asked Questions</p>
+            <p class="faq-badge" data-locale="home-faq-question">Frequently Asked Questions</p>
             <h2 class="faq-title" data-locale="home-faq-title-one">do you have <br> any questions? <br> find answers <br> here</h2>
             <p class="faq-description"  data-locale="home-faq-title-two">Some Frequently Asked Questions About Arkan Advanced Technical Group</p>
           </div>

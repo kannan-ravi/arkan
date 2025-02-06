@@ -121,7 +121,7 @@
       <div class="container">
         <div class="counter-container" data-lang-class="about-counter">
           <div class="counter-item">
-            <h3>30+</h3>
+            <h3 data-locale="about-counter-one">30+</h3>
             <p data-locale="about-counter-one-description">high-value <br> projects ongoing</p>
           </div>
           <div class="counter-item">
@@ -129,11 +129,11 @@
             <p data-locale="about-counter-two-description">total projects <br> worth</p>
           </div>
           <div class="counter-item">
-            <h3>1300+</h3>
+            <h3 data-locale="about-counter-two">1300+</h3>
             <p data-locale="about-counter-three-description">total <br> workforce</p>
           </div>
           <div class="counter-item">
-            <h3>17+</h3>
+            <h3 data-locale="about-counter-three">17+</h3>
             <p data-locale="about-counter-four-description">nationalities <br> work together</p>
           </div>
         </div>

@@ -429,3 +429,8 @@
     padding-right: 6rem;
   }
 }
+
+.form-container.arabic .quote-form-container .request-form .form-small-text {
+    text-align: right;  /* Aligns text to the right */
+    direction: rtl;
+}
