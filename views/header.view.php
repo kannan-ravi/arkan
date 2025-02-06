@@ -102,7 +102,7 @@
               </div>
               <div class="contact-item-content">
                 <p data-locale="header-address-title">Address</p>
-                <span>Abu dhabi, United Arab Emirates</span>
+                <span data-locale="header-address">Abu dhabi, United Arab Emirates</span>
               </div>
             </div>
           </div>

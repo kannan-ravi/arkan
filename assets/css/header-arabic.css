@@ -64,6 +64,9 @@ header.arabic .header-top-container {
     flex-direction: row-reverse;
     margin-right: 1rem;
   } 
+  header.arabic .header-nav-container .header-nav .header-navbar .nav-list .nav-item:last-child p {
+    text-align: right;
+  } 
 
   header.arabic .header-top-container .header-top,
   header.arabic .header-top-container .header-top .opening-hours,
