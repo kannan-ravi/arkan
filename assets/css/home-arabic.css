@@ -1,3 +1,28 @@
+/* HOME STYLE */
+.hero-container.arabic .swiper .hero-carousel-item .hero-slider-content {
+  left: unset;
+  direction: rtl;
+  right: 10%;
+}
+
+.hero-container.arabic .swiper .hero-carousel-item .hero-slider-content h1,
+.hero-container.arabic .swiper .hero-carousel-item .hero-slider-content p {
+  transform: translateX(100%);
+}
+
+.hero-container.arabic
+  .swiper
+  .hero-carousel-item.active
+  .hero-slider-content
+  h1,
+.hero-container.arabic
+  .swiper
+  .hero-carousel-item.active
+  .hero-slider-content
+  p {
+  transform: translateX(0);
+}
+
 /* EXPLORE STYLE */
 .explore-container.arabic .explore-content-container .explore-title {
   direction: rtl;
@@ -22,7 +47,8 @@
   .explore-content-container
   .explore-button-wrapper
   .explore-contact-info
-  .explore-contact-info-content p:first-child {
+  .explore-contact-info-content
+  p:first-child {
   direction: rtl;
 }
 
@@ -142,14 +168,18 @@
 }
 
 /* SERVICES STYLE */
-.services-section.arabic .services-container .services-item-container .services-item h3 {
+.services-section.arabic
+  .services-container
+  .services-item-container
+  .services-item
+  h3 {
   direction: rtl;
   left: unset;
   right: 18px;
 }
 
 .services-section.arabic .services-container {
-    direction: rtl;
+  direction: rtl;
 }
 
 /* QHSE STYLE */
@@ -162,7 +192,7 @@
 .qhse-container.arabic .qhse-items-container .qhse-item p::before {
   left: unset;
   right: 0;
-    translate: 50% -50%;
+  translate: 50% -50%;
 }
 
 .qhse-container.arabic .qhse-items-container .qhse-item i {
@@ -172,18 +202,33 @@
 }
 
 /* FAQ STYLE */
-.faq-container.arabic .faq-content-container p, .faq-container.arabic .faq-content-container h2 {
-    text-align: right;
+.faq-container.arabic .faq-content-container p,
+.faq-container.arabic .faq-content-container h2 {
+  text-align: right;
 }
-.faq-container.arabic .faq-questions-container .faq-accordion .faq-accordion-item .faq-accordion-header .faq-accordion-button {
-    direction: rtl;
+.faq-container.arabic
+  .faq-questions-container
+  .faq-accordion
+  .faq-accordion-item
+  .faq-accordion-header
+  .faq-accordion-button {
+  direction: rtl;
 }
-.faq-container.arabic .faq-questions-container .faq-accordion .faq-accordion-item .accordion-body {
-    direction: rtl;
+.faq-container.arabic
+  .faq-questions-container
+  .faq-accordion
+  .faq-accordion-item
+  .accordion-body {
+  direction: rtl;
 }
-.faq-container.arabic .faq-questions-container .faq-accordion .faq-accordion-item .faq-accordion-header .faq-accordion-button::after {
-    margin-left: unset;
-    margin-right: auto;
+.faq-container.arabic
+  .faq-questions-container
+  .faq-accordion
+  .faq-accordion-item
+  .faq-accordion-header
+  .faq-accordion-button::after {
+  margin-left: unset;
+  margin-right: auto;
 }
 
 /* MISSION & VISION STYLE */
@@ -264,12 +309,6 @@
 }
 
 @media (min-width: 992px) {
-  /* HOME STYLE */
-  .hero-container.arabic .carousel-item .hero-slider-content {
-    left: unset;
-    direction: rtl;
-    right: 10%;
-  }
   /* EXPLORE STYLE */
   .explore-container.arabic .explore-content-container {
     order: 2;
@@ -307,7 +346,7 @@
 
   /* FAQ STYLE */
   .faq-container.arabic {
-      direction: rtl;
+    direction: rtl;
   }
   /* MISSION VISION STYLE */
   .mv-wrapper.arabic .mv-container .mv-content-container.mission {
@@ -336,13 +375,13 @@
     right: -70%;
     left: unset;
   }
-  
+
   /* SERVICES STYLE */
   .services-section.arabic .services-second-bg {
     left: 0;
     right: unset;
   }
-  
+
   /* FORM STYLE */
   .form-container.arabic {
     flex-direction: row-reverse;
@@ -386,10 +425,7 @@
   p {
   direction: rtl;
 }
-.speecher-section.arabic
-  .speecher-container
-  .speecher-content-container
-  p {
+.speecher-section.arabic .speecher-container .speecher-content-container p {
   direction: rtl;
 }
 .speecher-section.arabic
@@ -398,19 +434,18 @@
   p:nth-child(5) {
   display: none;
 }
-  /* GENERAL MANAGER SPEECH STYLE */
-  .speecher-section.arabic .speecher-container .speecher-image-container {
-    order: 1;
-    border-right: 1px solid var(--gray);
-    padding-right: 2rem;
-    border-left: unset;
-    padding-left: unset;
-    justify-items: flex-end;
-  }
-  .speecher-section.arabic .speecher-container .speecher-content-container {
-    order: 2;
-    padding-left: 2rem;
-  }
+/* GENERAL MANAGER SPEECH STYLE */
+.speecher-section.arabic .speecher-container .speecher-image-container {
+  order: 1;
+  border-right: 1px solid var(--gray);
+  padding-right: 2rem;
+  border-left: unset;
+  padding-left: unset;
+  justify-items: flex-end;
+}
+.speecher-section.arabic .speecher-container .speecher-content-container {
+  order: 2;
+  padding-left: 2rem;
 }
 
 @media (min-width: 1200px) {
@@ -431,6 +466,6 @@
 }
 
 .form-container.arabic .quote-form-container .request-form .form-small-text {
-    text-align: right;  /* Aligns text to the right */
-    direction: rtl;
+  text-align: right; /* Aligns text to the right */
+  direction: rtl;
 }

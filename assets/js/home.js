@@ -1,3 +1,6 @@
+// ---------------------------------------------
+// ------------- TEAM SLIDER ANIMATION ------------
+// ---------------------------------------------
 const swiper = new Swiper("#team-slider", {
   direction: "horizontal",
   slidesPerView: 1,
@@ -18,26 +21,25 @@ const swiper = new Swiper("#team-slider", {
 });
 
 // ---------------------------------------------
-// ------------- CAROUSAL ANIMATION ------------
+// ------------- HERO SLIDER ANIMATION ------------
 // ---------------------------------------------
-
-document.addEventListener("DOMContentLoaded", function () {
-  const carousel = document.getElementById("carouselExampleSlidesOnly");
-
-  carousel.addEventListener("slide.bs.carousel", function (event) {
-    // Remove animation class from all slides
-    document.querySelectorAll(".hero-slider-content").forEach(content => {
-      content.style.opacity = "0";
-    });
-
-    // Add animation class to the new active slide
-    const nextSlide = event.relatedTarget;
-    const nextContent = nextSlide.querySelector(".hero-slider-content");
-
-    if (nextContent) {
-      setTimeout(() => {
-        nextContent.style.opacity = "1";
-      }, 200); // Small delay to ensure smooth transition
-    }
-  });
+const heroSwiper = new Swiper("#hero-swiper", {
+  direction: "horizontal",
+  slidesPerView: 1,
+  loop: true,
+  spaceBetween: 10,
+  autoplay: {
+    delay: 5000,
+  },
+  on: {
+    init: function (swiper) {
+      swiper.slides[swiper.activeIndex].classList.add("active");
+    },
+    slideChangeTransitionStart: function (swiper) {
+      swiper.slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      swiper.slides[swiper.activeIndex].classList.add("active");
+    },
+  },
 });

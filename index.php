@@ -22,10 +22,10 @@
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-	<style>
+  <style>
 
 
-	</style>
+  </style>
 </head>
 
 <body>
@@ -34,23 +34,22 @@
     <div class="loading"></div>
     <section class="hero-section">
       <div class="hero-container" data-lang-class="home-hero">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active hero-carousel-item">
-              <img src="./assets/img/home/hero/hero-01.png" alt="Hero Slider Image" class="hero-slider-image" />
+        <div class="swiper" id="hero-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide hero-carousel-item"><img src="./assets/img/home/hero/hero-01.png" alt="Hero Slider Image" class="hero-slider-image" />
               <div class="hero-slider-content">
                 <p class="mb-0" data-locale="home-hero-slider-one-para">Operating by</p>
                 <h1 data-locale="home-hero-slider-one-title">emirates <br> qualified team</h1>
               </div>
             </div>
-            <div class="carousel-item hero-carousel-item">
+            <div class="swiper-slide hero-carousel-item">
               <img src="./assets/img/home/hero/hero-02.png" alt="Hero Slider Image" class="hero-slider-image" />
               <div class="hero-slider-content">
                 <p class="mb-0" data-locale="home-hero-slider-two-para">construction and maintenance</p>
                 <h1 data-locale="home-hero-slider-two-title">for durability</h1>
               </div>
             </div>
-            <div class="carousel-item hero-carousel-item">
+            <div class="swiper-slide hero-carousel-item">
               <img src="./assets/img/home/hero/hero-03.png" alt="Hero Slider Image" class="hero-slider-image" />
               <div class="hero-slider-content">
                 <p class="mb-0" data-locale="home-hero-slider-three-para">Integrated facility management solutions for</p>
@@ -312,7 +311,7 @@
               </div>
             </div>
 
-            <a href="./polices" class="whyus-button" data-locale="home-explore-description-three">explore more</a>
+            <a href="./policies.php" class="whyus-button" data-locale="home-explore-description-three">explore more</a>
           </div>
 
           <div class="d-flex align-items-center justify-content-center whyus-image-wrapper">
@@ -334,7 +333,7 @@
     </section>
 
     <section class="services-section" data-lang-class="home-service">
-      <img src="./assets/img/home/services/bg-02.png" alt="" class="services-second-bg"/>
+      <img src="./assets/img/home/services/bg-02.png" alt="" class="services-second-bg" />
       <div class="container d-lg-flex align-items-lg-center justify-content-lg-center">
         <div class="services-container">
           <h2 class="services-title" data-locale="home-services-title">Services</h2>
@@ -422,7 +421,7 @@
           <div class="help-inner-container">
             <div class="help-heading">
               <h3 data-locale="home-help-line-title-one">Arkan</h3>
-              <p data-locale="home-help-line-title-two" >Advanced <br class="d-lg-none"> Technical Group</p>
+              <p data-locale="home-help-line-title-two">Advanced <br class="d-lg-none"> Technical Group</p>
             </div>
             <img src="./assets/img/home/help/construction-worker-image.png" alt="Construction Worker Image" class="help-construction-image">
             <div class="help-call-wrapper">
@@ -449,7 +448,7 @@
           <div class="faq-content-container">
             <p class="faq-badge" data-locale="home-faq-question">Frequently Asked Questions</p>
             <h2 class="faq-title" data-locale="home-faq-title-one">do you have <br> any questions? <br> find answers <br> here</h2>
-            <p class="faq-description"  data-locale="home-faq-title-two">Some Frequently Asked Questions About Arkan Advanced Technical Group</p>
+            <p class="faq-description" data-locale="home-faq-title-two">Some Frequently Asked Questions About Arkan Advanced Technical Group</p>
           </div>
           <div class="faq-questions-container">
             <div class="accordion faq-accordion" id="accordionExample">
@@ -542,7 +541,7 @@
       </div>
     </section>
 
-   <!-- <section class="team-section position-relative">
+    <!-- <section class="team-section position-relative">
       <img src="./assets/img/home/faq/left-decoration.png" alt="Decoration Image" class="faq-decoration left" />
       <img src="./assets/img/home/faq/right-decoration.png" alt="Decoration Image" class="faq-decoration right" />
       <div class="container">
@@ -554,9 +553,9 @@
 
           <div class="team-slider-container">
             <div class="swiper position-relative" id="team-slider">
-              <!-- Additional required wrapper 
+              Additional required wrapper 
               <div class="swiper-wrapper">
-                <!-- Slides 
+                Slides 
                 <div class="swiper-slide">
                   <div class="d-flex justify-content-center">
                     <div class="team-card">
@@ -640,14 +639,14 @@
         </div>
       </div>
     </section>-->
-	
+
     <section class="speecher-section" data-lang-class="about-speecher">
       <!--<div class="speecher-title">
         <h2 data-locale="about-speecher-title">General Manager's Speech</h2>
       </div>-->
-	   <div class="team-title">
-          <h2 data-locale="about-team-title">Meet Our Executive Team</h2>
-        </div>
+      <div class="team-title">
+        <h2 data-locale="about-team-title">Meet Our Executive Team</h2>
+      </div>
       <div class="container">
         <div class="speecher-container">
           <div class="speecher-image-container">
@@ -660,7 +659,7 @@
             </div>
           </div>
           <div class="speecher-content-container">
-            <p data-locale="about-speecher-content-one">We are Arkan Advanced Technical Group, and in alignment with the vision of  "We the UAE 2031" of His Highness Sheikh Mohamed bin Zayed Al Nahyan, President of the UAE may God protect and bless him, we embark on our developmental journey for the next decade that focusing on investment and development aspects. Through this vision, the country aims to strengthen its position as a global partner, an attractive and influential economic hub.</p>
+            <p data-locale="about-speecher-content-one">We are Arkan Advanced Technical Group, and in alignment with the vision of "We the UAE 2031" of His Highness Sheikh Mohamed bin Zayed Al Nahyan, President of the UAE may God protect and bless him, we embark on our developmental journey for the next decade that focusing on investment and development aspects. Through this vision, the country aims to strengthen its position as a global partner, an attractive and influential economic hub.</p>
             <p data-locale="about-speecher-content-two">We take pride in being trusted providers of innovative and sustainable solutions in the fields of constructions, general maintenance, and facilities management services. Our goal is to deliver continuous excellence, ensuring our clients and partners experience the highest levels of quality and professionalism in everything we do.</p>
             <p data-locale="about-speecher-content-three">With a passion for continuous improvement and a commitment to achieving outstanding results, we foster a culture of collaboration, responsibility, and respect, empowering our teams to deliver reliable and tailored solutions that meet the unique needs of each client.</p>
             <p data-locale="about-speecher-content-four">Our values — honesty, integrity, teamwork, and social responsibility — form the foundation of our operations. These principles guide us in building meaningful relationships and creating lasting value for our clients and the communities we support.</p>
@@ -678,7 +677,7 @@
       <img src="./assets" alt="" />
       <div class="container">
         <div class="form-container" data-lang-class="home-form">
-          <div  class="quote-form-container">
+          <div class="quote-form-container">
             <h3 data-locale="home-form-quote">Request Quote Form</h3>
             <form action="" class="request-form">
               <p class="form-small-text" data-locale="home-form-personal">Personal Information</p>
@@ -697,7 +696,7 @@
                   <i class="fa-solid fa-check"></i>
                 </span></button>
             </form>
-            <p class="form-alternative" data-locale="home-form-call-us" >Or Give us a call +97125539900</p>
+            <p class="form-alternative" data-locale="home-form-call-us">Or Give us a call +97125539900</p>
           </div>
           <div class="form-content-container">
             <h3><span class="fw-bold">REDEFINING</span> <br> Business <br> <span class="fw-semibold">Services</span></h3>
@@ -723,7 +722,7 @@
 
           <div class="department-points-container">
             <div class="department-point">
-              <div class="department-point-title" >
+              <div class="department-point-title">
                 <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
                 <h3 data-locale="home-department-point-one-title">Construction & Maintenance</h3>
               </div>
