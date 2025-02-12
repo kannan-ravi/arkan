@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arkhan</title>
+  <title>Arkan</title>
 
   <link rel="stylesheet" href="./assets/css/global.css" />
   <link rel="stylesheet" href="./assets/css/header.css" />
@@ -38,14 +38,14 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide hero-carousel-item"><img src="./assets/img/home/hero/hero-01.png" alt="Hero Slider Image" class="hero-slider-image" />
               <div class="hero-slider-content">
-                <p class="mb-0" data-locale="home-hero-slider-one-para">Operating by</p>
+                <p class="mb-0" data-locale="home-hero-slider-one-para">operating by</p>
                 <h1 data-locale="home-hero-slider-one-title">emirates <br> qualified team</h1>
               </div>
             </div>
             <div class="swiper-slide hero-carousel-item">
               <img src="./assets/img/home/hero/hero-02.png" alt="Hero Slider Image" class="hero-slider-image" />
               <div class="hero-slider-content">
-                <p class="mb-0" data-locale="home-hero-slider-two-para">construction and maintenance</p>
+                <p class="mb-0" data-locale="home-hero-slider-two-para">construction  and maintenance</p>
                 <h1 data-locale="home-hero-slider-two-title">for durability</h1>
               </div>
             </div>
@@ -111,7 +111,7 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-center justify-content-center explore-image-wrapper">
+          <div class="d-flex align-items-center justify-content-center justify-content-lg-end explore-image-wrapper pe-lg-4">
             <div class="position-relative explore-image-container">
               <div class="explore-image-one-container">
                 <img src="./assets/img/home/explore/explore-image-01.png" alt="explore image" class="explore-image-one">
@@ -184,7 +184,7 @@
                 <img src="./assets/img/home/servicelist/construction-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
-                <img src="./assets/img/home/servicelist/construction-services-icon.svg" alt="Arkhan Construction Service Icon">
+                <img src="./assets/img/home/servicelist/construction-services-icon.svg" alt="Arkan Construction Service Icon">
                 <h4 data-locale="home-servicelist-card-one-title">Construction Services</h4>
                 <a href="#">Read More</a>
               </div>
@@ -222,7 +222,7 @@
                 <img src="./assets/img/home/servicelist/facility-management-soft-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
-                <img src="./assets/img/home/servicelist/facility-management-soft-services.svg" alt="Arkhan Construction Service Icon">
+                <img src="./assets/img/home/servicelist/facility-management-soft-services.svg" alt="Arkan Construction Service Icon">
                 <h4 data-locale="home-servicelist-card-two-title">Facility Management Soft Services</h4>
                 <a href="#">Read More</a>
               </div>
@@ -257,7 +257,7 @@
                 <img src="./assets/img/home/servicelist/maintenance-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
-                <img src="./assets/img/home/servicelist/maintenance-services.svg" alt="Arkhan Construction Service Icon">
+                <img src="./assets/img/home/servicelist/maintenance-services.svg" alt="Arkan Construction Service Icon">
                 <h4 data-locale="home-servicelist-card-three-title">Maintenance Services</h4>
                 <a href="#">Read More</a>
               </div>
@@ -287,7 +287,7 @@
       <div class="container">
         <div class="whyus-container" data-lang-class="home-whyus">
           <div class="whyus-content-container">
-            <h2 data-locale="home-whyus-heading">Why Choose Arkhan Technical group?</h2>
+            <h2 data-locale="home-whyus-heading">Why Choose Arkan Technical group?</h2>
             <p data-locale="home-whyus-para">Our renewable energy solutions not only reduce your energy costs, but they also make a positive impact on the environment. Join us in our mission to create a more sustainable future, one panel at a time.</p>
 
             <div class="whyus-point-container">
@@ -317,10 +317,10 @@
           <div class="d-flex align-items-center justify-content-center whyus-image-wrapper">
             <div class="whyus-image-container">
               <div class="whyus-image-one">
-                <img src="./assets/img/home/whyus/whyus-one.png" alt="Arkhan Image">
+                <img src="./assets/img/home/whyus/whyus-one.png" alt="Arkan Image">
               </div>
               <div class="whyus-image-two">
-                <img src="./assets/img/home/whyus/whyus-two.png" alt="Arkhan Image">
+                <img src="./assets/img/home/whyus/whyus-two.png" alt="Arkan Image">
               </div>
               <div class="whyus-experience-box">
                 <p>10</p>

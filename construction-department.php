@@ -171,9 +171,9 @@
                   <ul class="service-points-content">
                     <li data-locale="dep-construction-tab-content-four-point-one">Electromechanical equipment installation & maintenance</li>
                     <li data-locale="dep-construction-tab-content-four-point-two">Installation of cable TRYS</li>
-                    <li data-locale="dep-construction-tab-content-four-point-three">Installation of testing all kinds of cables</li>
-                    <li data-locale="dep-construction-tab-content-four-point-four">Cable jointing</li>
-                    <li data-locale="dep-construction-tab-content-four-point-five">Installation of all kinds of panel & distribution boards</li>
+                    <li data-locale="dep-construction-tab-content-four-point-four">Installation of testing all kinds of cables</li>
+                    <li data-locale="dep-construction-tab-content-four-point-five">Cable jointing</li>
+                    <li data-locale="dep-construction-tab-content-four-point-six">Installation of all kinds of panel & distribution boards</li>
                   </ul>
                 </div>
               </div>
