@@ -45,7 +45,7 @@
             <div class="swiper-slide hero-carousel-item">
               <img src="./assets/img/home/hero/hero-02.png" alt="Hero Slider Image" class="hero-slider-image" />
               <div class="hero-slider-content">
-                <p class="mb-0" data-locale="home-hero-slider-two-para">construction  and maintenance</p>
+                <p class="mb-0" data-locale="home-hero-slider-two-para">construction and maintenance</p>
                 <h1 data-locale="home-hero-slider-two-title">for durability</h1>
               </div>
             </div>
@@ -138,7 +138,7 @@
               <img src="./assets/img/home/counter/icon-01.svg" alt="counter icon" />
             </div>
             <div class="counter-content">
-              <p data-locale="home-counter-number-one">30+</p>
+              <p data-locale="home-counter-number-one" data-target="30">0+</p>
               <span class="text-uppercase" data-locale="home-counter-card-one">high-value Projects <br> ongoing</span>
             </div>
           </div>
@@ -147,7 +147,7 @@
               <img src="./assets/img/home/counter/icon-02.svg" alt="counter icon" />
             </div>
             <div class="counter-content">
-              <p data-locale="home-counter-number-two">300M+</p>
+              <p data-locale="home-counter-number-two" data-target="300">0M+</p>
               <span class="text-uppercase" data-locale="home-counter-card-two">total project <br> worth</span>
             </div>
           </div>
@@ -156,7 +156,7 @@
               <img src="./assets/img/home/counter/icon-02.svg" alt="counter icon" />
             </div>
             <div class="counter-content">
-              <p data-locale="home-counter-number-three">17+</p>
+              <p data-locale="home-counter-number-three" data-target="17">0+</p>
               <span class="text-uppercase" data-locale="home-counter-card-three">nationalities <br> work together</span>
             </div>
           </div>
@@ -165,7 +165,7 @@
               <img src="./assets/img/home/counter/icon-02.svg" alt="counter icon" />
             </div>
             <div class="counter-content">
-              <p data-locale="home-counter-number-four">1300+</p>
+              <p data-locale="home-counter-number-four" data-target="1300">0+</p>
               <span class="text-uppercase" data-locale="home-counter-card-four">total <br> workforce</span>
             </div>
           </div>
@@ -186,10 +186,10 @@
               <div class="servicelist-card">
                 <img src="./assets/img/home/servicelist/construction-services-icon.svg" alt="Arkan Construction Service Icon">
                 <h4 data-locale="home-servicelist-card-one-title">Construction Services</h4>
-                <a href="#">Read More</a>
+                <a href="./construction-services.php">Read More</a>
               </div>
             </div>
-            <div class="servicelist-more-container">
+            <!-- <div class="servicelist-more-container">
               <div class="servicelist-more">
                 <h5 data-locale="home-servicelist-card-one-title">Construction Services</h5>
                 <ul>
@@ -214,7 +214,7 @@
                 </ul>
                 <a href="./construction-services.php" data-locale="home-servicelist-card-learn-more">Learn more</a>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="position-relative overflow-hidden rounded-3 servicelist-item-container">
             <div class="servicelist-item">
@@ -224,10 +224,10 @@
               <div class="servicelist-card">
                 <img src="./assets/img/home/servicelist/facility-management-soft-services.svg" alt="Arkan Construction Service Icon">
                 <h4 data-locale="home-servicelist-card-two-title">Facility Management Soft Services</h4>
-                <a href="#">Read More</a>
+                <a href="./facility-services.php">Read More</a>
               </div>
             </div>
-            <div class="servicelist-more-container">
+            <!-- <div class="servicelist-more-container">
               <div class="servicelist-more">
                 <h5 data-locale="home-servicelist-card-two-title">Facility Management Soft Services</h5>
                 <ul>
@@ -249,7 +249,7 @@
                 </ul>
                 <a href="./facility-services.php" data-locale="home-servicelist-card-learn-more">Learn more</a>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="position-relative overflow-hidden rounded-3 servicelist-item-container">
             <div class="servicelist-item">
@@ -259,10 +259,10 @@
               <div class="servicelist-card">
                 <img src="./assets/img/home/servicelist/maintenance-services.svg" alt="Arkan Construction Service Icon">
                 <h4 data-locale="home-servicelist-card-three-title">Maintenance Services</h4>
-                <a href="#">Read More</a>
+                <a href="./maintenance-services.php">Read More</a>
               </div>
             </div>
-            <div class="servicelist-more-container">
+            <!-- <div class="servicelist-more-container">
               <div class="servicelist-more">
                 <h5 data-locale="home-servicelist-card-three-title">Maintenance Services</h5>
                 <ul>
@@ -278,7 +278,7 @@
                 </ul>
                 <a href="./maintenance-services.php " data-locale="home-servicelist-card-learn-more">Learn more</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
     </section>

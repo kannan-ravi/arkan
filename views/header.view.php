@@ -34,11 +34,12 @@
     <div class="container">
       <div class="header-nav">
         <div class="logo">
-          <img src="./assets/img/logo/logo-89px.png" alt="logo" class="w-100">
-          <div>
+          <img src="./assets/img/logo/logo.png" alt="logo" class="w-100 english">
+          <img src="./assets/img/logo/logo-arabic.png" alt="logo" class="w-100 arabic">
+          <!-- <div>
             <p class="logo-text" data-locale="header-company-name">Arkan Advanced Technical Group</p>
             <p class="logo-small-text" data-locale="header-company-description">Retired Military Personnel Association Project</p>
-          </div>
+          </div> -->
         </div>
 
         <nav class="header-navbar">
@@ -64,7 +65,7 @@
               <div>
                 <p class="mb-0" data-locale="header-call-us">Call Us</p>
                 <p class="mb-0">
-                 +97125539900
+                  +97125539900
                 </p>
               </div>
             </li>
@@ -112,15 +113,13 @@
   </div>
 </header>
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.querySelectorAll(".nav-list .nav-item .nav-link");
-    
+
     navLinks.forEach(link => {
-        if (link.href === window.location.href) {
-            link.parentElement.classList.add("active");
-        }
+      if (link.href === window.location.href) {
+        link.parentElement.classList.add("active");
+      }
     });
-});
-
-
+  });
 </script>

@@ -47,8 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
           element.placeholder = data[key];
         }
       });
-      
-      
 
       if (languageSelect.value === "ar") {
         const elements = document.querySelectorAll("[data-lang-class]");
@@ -58,14 +56,16 @@ document.addEventListener("DOMContentLoaded", function () {
             element.classList.add(`arabic`);
           }
         });
-        
-        document.querySelectorAll('#marquee-container').forEach((element) => {
+
+        document.querySelectorAll("#marquee-container").forEach((element) => {
           const parent = element.parentNode;
           element.setAttribute("direction", "right");
           const clone = element.cloneNode(true);
           parent.replaceChild(clone, element);
-        })
+        });
 
+        document.body.classList.add("arabic");
+        document.body.classList.remove("english");
         flag.src = "https://flagsapi.com/AE/flat/32.png";
       }
 
@@ -77,14 +77,16 @@ document.addEventListener("DOMContentLoaded", function () {
             element.classList.remove(`arabic`);
           }
         });
-        
-        document.querySelectorAll('#marquee-container').forEach((element) => {
+
+        document.querySelectorAll("#marquee-container").forEach((element) => {
           const parent = element.parentNode;
           element.setAttribute("direction", "left");
           const clone = element.cloneNode(true);
           parent.replaceChild(clone, element);
-        })
-        
+        });
+
+        document.body.classList.add("english");
+        document.body.classList.remove("arabic");
         flag.src = "https://flagsapi.com/GB/flat/32.png";
       }
     } catch (error) {

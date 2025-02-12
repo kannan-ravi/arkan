@@ -59,8 +59,16 @@
 }
 
 .header-nav .logo img {
-  max-width: 70px;
+  max-width: 300px;
   height: 100%;
+}
+
+header .header-nav-container .header-nav .logo img.arabic {
+  display: none;
+}
+
+header .header-nav-container .header-nav .logo img.english {
+  display: block;
 }
 
 .header-nav .logo .logo-text {
@@ -265,7 +273,7 @@
   }
 
   .header-nav .logo img {
-    max-width: 50px;
+    max-width: 310px;
     height: 100%;
   }
 
@@ -298,9 +306,9 @@
   .header-navbar .h-line {
     display: none;
   }
-  
+
   .header-navbar .nav-item.active {
-      background-color: #FFF3E6;
+    background-color: #fff3e6;
   }
 
   .header-navbar .download-brochure {
@@ -308,7 +316,6 @@
     text-wrap: nowrap;
     background-color: var(--black);
     padding: 0.5rem 1rem;
-		
   }
   .header-navbar .close-button {
     display: none;
@@ -336,9 +343,9 @@
   .header-top .location-contact-info .social-media {
     margin-right: 0rem;
   }
-  
+
   .header-top .location-contact-info .location {
-      margin-right: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .header-nav-container {
@@ -356,11 +363,15 @@
       rgba(255, 255, 255, 1) 77.5%
     );
   }
-  
+
   .header-nav .logo {
     gap: 0.5rem;
   }
-  
+
+  .header-nav .logo img {
+    max-width: 320px;
+  }
+
   .header-nav .logo .logo-text {
     font-size: 1rem;
   }
@@ -368,13 +379,11 @@
     font-size: 0.9rem;
   }
 
-
   .header-navbar .nav-item {
     font-size: 0.9rem;
     height: 100%;
     padding: 1.85rem 0.6rem;
   }
-  
 
   .header-navbar .nav-item i {
     background-color: black;
@@ -383,7 +392,7 @@
     margin: 0 0 0 0.5rem;
     color: var(--white);
   }
-  
+
   .header-navbar .nav-item:last-child {
     padding: 0;
   }
@@ -416,7 +425,7 @@
       rgba(255, 255, 255, 1) 80%
     );
   }
-  
+
   .header-nav .logo .logo-text {
     font-size: 1.1rem;
   }
@@ -437,6 +446,3 @@
     margin-left: 3rem;
   }
 }
-
-
-

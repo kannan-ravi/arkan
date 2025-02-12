@@ -1,4 +1,4 @@
-/* HERO STYLE */
+/* ANIMATION */
 @keyframes slideIn {
   from {
     transform: translateX(-100%);
@@ -10,6 +10,16 @@
   }
 }
 
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(251, 140, 3, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(251, 140, 3, 0);
+  }
+}
+
+/* HERO STYLE */
 .hero-container {
   position: relative;
 }
@@ -126,6 +136,11 @@
   background-color: var(--orange);
   border-radius: 50%;
   padding: 0.8rem;
+}
+
+.explore-contact-info i:hover {
+  animation: pulse-animation 1s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .explore-contact-info-content p:nth-child(1) {
@@ -788,6 +803,11 @@
 .help-icon i {
   font-size: 0.6rem;
   color: var(--white);
+}
+
+.help-icon:hover {
+  animation: pulse-animation 1s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .help-text-desc {
@@ -1617,7 +1637,7 @@
   .team-section {
     padding: 6rem 0;
   }
-  
+
   .team-title h2 {
     font-weight: 800;
     font-size: 3rem;
@@ -1758,7 +1778,7 @@
     bottom: 10%;
     left: 5%;
   }
-  
+
   .hero-slider-content h1 {
     font-size: 5rem;
   }
@@ -1898,7 +1918,7 @@
   .hero-slider-content h1 {
     font-size: 6rem;
   }
-  
+
   .hero-slider-image {
     height: calc(100vh - 144px);
   }

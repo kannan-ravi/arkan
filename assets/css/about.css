@@ -14,7 +14,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5), transparent);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-container {
@@ -237,7 +237,7 @@
 .mv-single-container:hover .mv-icon i {
   color: var(--orange);
 }
-*/ 
+*/
 
 .mv-content {
   position: absolute;
@@ -432,7 +432,7 @@
 }
 
 .speecher-content-container .speecher-regards {
-    margin-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 /* CONTACT US */

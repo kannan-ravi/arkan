@@ -1,5 +1,5 @@
 // ---------------------------------------------
-// ------------- TEAM SLIDER ANIMATION ------------
+// ----------- TEAM SLIDER ANIMATION -----------
 // ---------------------------------------------
 const swiper = new Swiper("#team-slider", {
   direction: "horizontal",
@@ -21,7 +21,7 @@ const swiper = new Swiper("#team-slider", {
 });
 
 // ---------------------------------------------
-// ------------- HERO SLIDER ANIMATION ------------
+// ----------- HERO SLIDER ANIMATION -----------
 // ---------------------------------------------
 const heroSwiper = new Swiper("#hero-swiper", {
   direction: "horizontal",
@@ -42,4 +42,48 @@ const heroSwiper = new Swiper("#hero-swiper", {
       swiper.slides[swiper.activeIndex].classList.add("active");
     },
   },
+});
+
+// ---------------------------------------------
+// -------------COUNTER ANIMATION---------------
+// ---------------------------------------------
+
+function animateCounters(targets, duration) {
+  const startTime = performance.now();
+
+  function update() {
+    const elapsedTime = performance.now() - startTime;
+    const progress = Math.min(elapsedTime / duration, 1);
+
+    targets.forEach((target) => {
+      const endValue = parseInt(target.dataset.target, 10);
+      const newValue = Math.round(progress * endValue);
+      target.textContent =
+        newValue + (target.textContent.includes("M") ? "M+" : "+");
+    });
+
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    }
+  }
+
+  requestAnimationFrame(update);
+}
+
+function handleIntersection(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const counters = entry.target.querySelectorAll(".counter-content p");
+      animateCounters(counters, 3000);
+      observer.unobserve(entry.target);
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll(".counter-section");
+  const observer = new IntersectionObserver(handleIntersection, {
+    threshold: 0.5,
+  });
+  sections.forEach((section) => observer.observe(section));
 });
