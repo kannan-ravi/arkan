@@ -506,6 +506,78 @@
       </div>
     </section>
 
+    <section class="department-section" data-lang-class="home-department">
+      <div class="department-empty-div"></div>
+      <div class="container department-wrapper">
+        <div class="department-container">
+          <h2 class="department-title" data-locale="home-department-title">
+            Our Departments
+          </h2>
+
+          <p class="department-description" data-locale="home-department-description">
+            Our dedicated departments work in synergy to ensure the highest standards of quality, safety, and efficiency across all projects. Each team brings specialized expertise to deliver reliable, sustainable solutions for our clients.
+          </p>
+
+          <div class="department-points-container">
+            <div class="department-point">
+              <div class="department-point-title">
+                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
+                <h3 data-locale="home-department-point-one-title">Construction & Maintenance</h3>
+              </div>
+              <p class="department-point-description" data-locale="home-department-point-one-description">
+                Delivering quality from start to finish, our team ensures precise construction and reliable maintenance, guaranteeing lasting value and operational excellence for every project.
+              </p>
+            </div>
+            <div class="department-point">
+              <div class="department-point-title">
+                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
+                <h3 data-locale="home-department-point-two-title">Finance</h3>
+              </div>
+              <p class="department-point-description" data-locale="home-department-point-two-description">
+                This Department manages our financial strategy and budgeting, ensuring sustainable growth and meticulous resource allocation for optimal operational efficiency.
+              </p>
+            </div>
+            <div class="department-point">
+              <div class="department-point-title">
+                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
+                <h3 data-locale="home-department-point-three-title">Accommodation & Transportation</h3>
+              </div>
+              <p class="department-point-description" data-locale="home-department-point-three-description">
+                Dedicated to smooth logistics, this department handles accommodation & transportation needs, ensuring efficient mobility and comfortable lodging for our workforce.
+              </p>
+            </div>
+            <div class="department-point">
+              <div class="department-point-title">
+                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
+                <h3 data-locale="home-department-point-four-title">Facility management soft services</h3>
+              </div>
+              <p class="department-point-description" data-locale="home-department-point-four-description">
+                Our Soft Services team specializes in creating a clean, safe, and well-maintained environment, focusing on enhancing the comfort and productivity of your spaces.
+              </p>
+            </div>
+            <div class="department-point">
+              <div class="department-point-title">
+                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
+                <h3 data-locale="home-department-point-five-title">Human Resource</h3>
+              </div>
+              <p class="department-point-description" data-locale="home-department-point-five-description">
+                Our Department is committed to fostering a productive & supportive workplace, handling recruitment and performance management to empower our team.
+              </p>
+            </div>
+            <div class="department-point">
+              <div class="department-point-title">
+                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
+                <h3 data-locale="home-department-point-six-title">Procurement</h3>
+              </div>
+              <p class="department-point-description" data-locale="home-department-point-six-description">
+                This Department secures high-quality materials and services, building reliable partnerships and optimizing resources to support project success & cost-effectiveness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="mv-section">
       <div class="container">
         <div class="mv-wrapper" data-lang-class="home-mv">
@@ -699,7 +771,7 @@
             <p class="form-alternative" data-locale="home-form-call-us">Or Give us a call +97125539900</p>
           </div>
           <div class="form-content-container">
-            <h3><span class="fw-bold">REDEFINING</span> <br> Business <br> <span class="fw-semibold">Services</span></h3>
+            <h3><span class="fw-bold">REDEFINING</span> <br> <span class="fw-bold">Business</span> <br> <span class="fw-bold">Services</span></h3>
             <div class="form-content-icon">
               <i class="fa-solid fa-arrow-up-long"></i>
             </div>
@@ -708,77 +780,6 @@
       </div>
     </section>
 
-    <section class="department-section" data-lang-class="home-department">
-      <div class="department-empty-div"></div>
-      <div class="container department-wrapper">
-        <div class="department-container">
-          <h2 class="department-title" data-locale="home-department-title">
-            Our Departments
-          </h2>
-
-          <p class="department-description" data-locale="home-department-description">
-            Our dedicated departments work in synergy to ensure the highest standards of quality, safety, and efficiency across all projects. Each team brings specialized expertise to deliver reliable, sustainable solutions for our clients.
-          </p>
-
-          <div class="department-points-container">
-            <div class="department-point">
-              <div class="department-point-title">
-                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
-                <h3 data-locale="home-department-point-one-title">Construction & Maintenance</h3>
-              </div>
-              <p class="department-point-description" data-locale="home-department-point-one-description">
-                Delivering quality from start to finish, our team ensures precise construction and reliable maintenance, guaranteeing lasting value and operational excellence for every project.
-              </p>
-            </div>
-            <div class="department-point">
-              <div class="department-point-title">
-                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
-                <h3 data-locale="home-department-point-two-title">Finance</h3>
-              </div>
-              <p class="department-point-description" data-locale="home-department-point-two-description">
-                This Department manages our financial strategy and budgeting, ensuring sustainable growth and meticulous resource allocation for optimal operational efficiency.
-              </p>
-            </div>
-            <div class="department-point">
-              <div class="department-point-title">
-                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
-                <h3 data-locale="home-department-point-three-title">Accommodation & Transportation</h3>
-              </div>
-              <p class="department-point-description" data-locale="home-department-point-three-description">
-                Dedicated to smooth logistics, this department handles accommodation & transportation needs, ensuring efficient mobility and comfortable lodging for our workforce.
-              </p>
-            </div>
-            <div class="department-point">
-              <div class="department-point-title">
-                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
-                <h3 data-locale="home-department-point-four-title">Facility management soft services</h3>
-              </div>
-              <p class="department-point-description" data-locale="home-department-point-four-description">
-                Our Soft Services team specializes in creating a clean, safe, and well-maintained environment, focusing on enhancing the comfort and productivity of your spaces.
-              </p>
-            </div>
-            <div class="department-point">
-              <div class="department-point-title">
-                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
-                <h3 data-locale="home-department-point-five-title">Human Resource</h3>
-              </div>
-              <p class="department-point-description" data-locale="home-department-point-five-description">
-                Our Department is committed to fostering a productive & supportive workplace, handling recruitment and performance management to empower our team.
-              </p>
-            </div>
-            <div class="department-point">
-              <div class="department-point-title">
-                <img src="./assets/img/home/department/department-points-icon.png" alt="Title Icon">
-                <h3 data-locale="home-department-point-six-title">Procurement</h3>
-              </div>
-              <p class="department-point-description" data-locale="home-department-point-six-description">
-                This Department secures high-quality materials and services, building reliable partnerships and optimizing resources to support project success & cost-effectiveness.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
   <?php include_once './views/footer.view.php'; ?>
 

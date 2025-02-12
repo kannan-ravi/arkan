@@ -54,6 +54,7 @@
   padding: 0.6rem 2rem 0.6rem 1rem;
   width: fit-content;
   border-right: 8px solid var(--orange);
+  font-weight: 700;
 }
 
 .who-container {

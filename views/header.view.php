@@ -33,31 +33,35 @@
   <div class="header-nav-container">
     <div class="container">
       <div class="header-nav">
-        <div class="logo">
+        <a href="./index.php" class="logo">
           <img src="./assets/img/logo/logo.png" alt="logo" class="w-100 english">
           <img src="./assets/img/logo/logo-arabic.png" alt="logo" class="w-100 arabic">
           <!-- <div>
             <p class="logo-text" data-locale="header-company-name">Arkan Advanced Technical Group</p>
             <p class="logo-small-text" data-locale="header-company-description">Retired Military Personnel Association Project</p>
           </div> -->
-        </div>
+        </a>
+
+        <?php
+        $page = basename($_SERVER['PHP_SELF']);
+        ?>
 
         <nav class="header-navbar">
           <i class="fa-solid fa-xmark close-button"></i>
           <ul class="nav-list">
-            <li class="nav-item">
+            <li class="nav-item <?= $page === 'index.php' || $page === '/' ? 'active' : '' ?>">
               <a href="./index.php" class="nav-link" data-locale="header-link-one">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?= $page === 'about.php' ? 'active' : '' ?>">
               <a href="./about.php" class="nav-link" data-locale="header-link-two">About Us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?= $page === 'policies.php' ? 'active' : '' ?>">
               <a href="./policies.php" class="nav-link" data-locale="header-link-three">Policies</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?= $page === 'construction-services.php' || $page === 'maintenance-services.php' || $page === 'facility-services.php' ? 'active' : '' ?>">
               <a href="./construction-services.php" class="nav-link" data-locale="header-link-four">Services</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?= $page === 'construction-department.php' || $page === 'facility-management.php' || $page === 'finance-department.php' ||  $page === 'human-resources.php' || $page === 'accommodation-transportation.php' || $page === 'procurement.php' ? 'active' : '' ?>">
               <a href="./construction-department.php" class="nav-link" data-locale="header-link-five">Departments</a>
             </li>
             <li class="nav-item d-none d-xl-flex align-items-lg-center gap-2">
@@ -112,7 +116,7 @@
     </div>
   </div>
 </header>
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.querySelectorAll(".nav-list .nav-item .nav-link");
 
@@ -122,4 +126,4 @@
       }
     });
   });
-</script>
+</script> -->

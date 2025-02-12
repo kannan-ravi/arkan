@@ -300,7 +300,7 @@ header .header-nav-container .header-nav .logo img.english {
     text-wrap: nowrap;
     padding: 1.75rem 1rem;
     color: var(--black);
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .header-navbar .h-line {
@@ -437,7 +437,7 @@ header .header-nav-container .header-nav .logo img.english {
     gap: 0rem;
   }
   .header-navbar .nav-item {
-    font-size: 1rem;
+    font-size: 0.93rem;
     padding: 1.85rem 1rem;
   }
 
