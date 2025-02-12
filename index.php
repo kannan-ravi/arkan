@@ -147,7 +147,7 @@
               <img src="./assets/img/home/counter/icon-02.svg" alt="counter icon" />
             </div>
             <div class="counter-content">
-              <p data-locale="home-counter-number-two" data-target="300">0M+</p>
+              <p data-locale="home-counter-number-two" data-target="300M">0M+</p>
               <span class="text-uppercase" data-locale="home-counter-card-two">total project <br> worth</span>
             </div>
           </div>

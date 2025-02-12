@@ -48,6 +48,28 @@ const heroSwiper = new Swiper("#hero-swiper", {
 // -------------COUNTER ANIMATION---------------
 // ---------------------------------------------
 
+// function animateCounters(targets, duration) {
+//   const startTime = performance.now();
+
+//   function update() {
+//     const elapsedTime = performance.now() - startTime;
+//     const progress = Math.min(elapsedTime / duration, 1);
+
+//     targets.forEach((target) => {
+//       const endValue = parseInt(target.dataset.target, 10);
+//       const newValue = Math.round(progress * endValue);
+//       target.textContent =
+//         newValue + (target.textContent.includes("M") ? "M+" : "+");
+//     });
+
+//     if (progress < 1) {
+//       requestAnimationFrame(update);
+//     }
+//   }
+
+//   requestAnimationFrame(update);
+// }
+
 function animateCounters(targets, duration) {
   const startTime = performance.now();
 
@@ -58,8 +80,16 @@ function animateCounters(targets, duration) {
     targets.forEach((target) => {
       const endValue = parseInt(target.dataset.target, 10);
       const newValue = Math.round(progress * endValue);
-      target.textContent =
-        newValue + (target.textContent.includes("M") ? "M+" : "+");
+      const isMillion = target.dataset.target.includes("M");
+
+      // Check if Arabic is active
+      const isArabic = document.body.classList.contains("arabic");
+
+      if (isMillion) {
+        target.textContent = isArabic ? `+${newValue}M` : `${newValue}M+`;
+      } else {
+        target.textContent = isArabic ? `+${newValue}` : `${newValue}+`;
+      }
     });
 
     if (progress < 1) {
