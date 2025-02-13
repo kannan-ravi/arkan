@@ -48,16 +48,43 @@ body {
   font-family: var(--ff-english);
 }
 
+/* .loading {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  display: flex;
+  transition: all 0.6s ease-in;
+} */
+
+/* Preloader styling */
 .loading {
   position: fixed;
-  display: none;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: transparent;
-  backdrop-filter: blur(5px);
+  background-color: var(--orange);
+  display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9;
+  z-index: 9999;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+}
+
+.loading.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading.show {
+  opacity: 1;
+  visibility: visible;
 }

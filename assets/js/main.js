@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // document.querySelector(".loading").style.top = "-100%";
   // -------------------------------------------------
   // ----------- HEADER SCRIPT STARTED ---------------
   // -------------------------------------------------
@@ -30,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function loadLanguage(lang) {
     try {
-      document.querySelector(".loading").style.display = "flex";
       const flag = document.querySelector(".lang-flag");
       const response = await fetch(`./locale/${lang}.json`);
       const data = await response.json();
@@ -92,7 +92,6 @@ document.addEventListener("DOMContentLoaded", function () {
     } catch (error) {
       console.error("Error loading language file:", error);
     } finally {
-      document.querySelector(".loading").style.display = "none";
     }
   }
 
@@ -107,4 +106,26 @@ document.addEventListener("DOMContentLoaded", function () {
   // -------------------------------------------------
   // --------- TRANSLATION SCRIPT ENDED --------------
   // -------------------------------------------------
+
+  const loader = document.querySelector(".loading");
+
+  setTimeout(() => {
+    loader.classList.add("hide");
+  }, 500);
+
+  document.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      const href = this.getAttribute("href");
+
+      if (href && !href.startsWith("#")) {
+        loader.classList.remove("hide");
+        loader.classList.add("show");
+
+        setTimeout(() => {
+          window.location.href = href;
+        }, 600);
+      }
+    });
+  });
 });

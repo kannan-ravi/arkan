@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="./assets/css/about.css" />
   <link rel="stylesheet" href="./assets/css/about-arabic.css" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -28,7 +31,7 @@
 <body>
   <?php include_once './views/header.view.php'; ?>
   <main>
-    <div class="loading"></div>
+    <div class="loading"> <img src="./assets/img/logo/logo-89px.png" alt=""></div>
     <section class="hero-section">
       <div class="container h-100">
         <div class="hero-container" data-lang-class="about-hero">
@@ -56,7 +59,7 @@
         </div>
       </div>
 
- 	  <marquee behavior="scroll" class="marquee" direction="left" id="marquee-container">
+      <marquee behavior="scroll" class="marquee" direction="left" id="marquee-container">
         <div class="marquee-content">
           <p class="mb-0">
             <i class="fa-solid fa-circle-check"></i>
@@ -140,8 +143,8 @@
       </div>
       </div>
     </section>
-    
-        <!--<section class="team-section">
+
+    <!--<section class="team-section">
       <div class="team-container" data-lang-class="about-team">
         <div class="team-title">
           <h2 data-locale="about-team-title">Meet Our Executive Team</h2>
@@ -150,11 +153,11 @@
 
 
           <!-- Slider main container -->
-          <!--<div class="swiper" id="team-slider">
+    <!--<div class="swiper" id="team-slider">
             <!-- Additional required wrapper -->
-            <!--<div class="swiper-wrapper">
+    <!--<div class="swiper-wrapper">
               <!-- Slides -->
-              <!--<div class="swiper-slide">
+    <!--<div class="swiper-slide">
                 <div class="d-flex align-items-center justify-content-center team-card-wrapper">
                   <div class="team-card">
                     <div class="team-card-image"></div>
@@ -233,15 +236,15 @@
       </div>
     </section>-->
 
-   
+
 
     <section class="speecher-section" data-lang-class="about-speecher">
       <!--<div class="speecher-title">
         <h2 data-locale="about-speecher-title">General Manager's Speech</h2>
       </div>-->
-	   <div class="team-title">
-          <h2 data-locale="about-team-title">Meet Our Executive Team</h2>
-        </div>
+      <div class="team-title">
+        <h2 data-locale="about-team-title">Meet Our Executive Team</h2>
+      </div>
       <div class="container">
         <div class="speecher-container">
           <div class="speecher-image-container">
@@ -254,7 +257,7 @@
             </div>
           </div>
           <div class="speecher-content-container">
-            <p data-locale="about-speecher-content-one">We are Arkan Advanced Technical Group, and in alignment with the vision of  "We the UAE 2031" of His Highness Sheikh Mohamed bin Zayed Al Nahyan, President of the UAE may God protect and bless him, we embark on our developmental journey for the next decade that focusing on investment and development aspects. Through this vision, the country aims to strengthen its position as a global partner, an attractive and influential economic hub.</p>
+            <p data-locale="about-speecher-content-one">We are Arkan Advanced Technical Group, and in alignment with the vision of "We the UAE 2031" of His Highness Sheikh Mohamed bin Zayed Al Nahyan, President of the UAE may God protect and bless him, we embark on our developmental journey for the next decade that focusing on investment and development aspects. Through this vision, the country aims to strengthen its position as a global partner, an attractive and influential economic hub.</p>
             <p data-locale="about-speecher-content-two">We take pride in being trusted providers of innovative and sustainable solutions in the fields of constructions, general maintenance, and facilities management services. Our goal is to deliver continuous excellence, ensuring our clients and partners experience the highest levels of quality and professionalism in everything we do.</p>
             <p data-locale="about-speecher-content-three">With a passion for continuous improvement and a commitment to achieving outstanding results, we foster a culture of collaboration, responsibility, and respect, empowering our teams to deliver reliable and tailored solutions that meet the unique needs of each client.</p>
             <p data-locale="about-speecher-content-four">Our values — honesty, integrity, teamwork, and social responsibility — form the foundation of our operations. These principles guide us in building meaningful relationships and creating lasting value for our clients and the communities we support.</p>

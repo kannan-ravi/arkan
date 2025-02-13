@@ -28,7 +28,7 @@
 <body>
   <?php include_once './views/header.view.php'; ?>
   <main>
-    <div class="loading"></div>
+    <div class="loading"><img src="./assets/img/logo/logo-89px.png" alt="loading..."></div>
     <section class="hero-section">
       <div class="container h-100">
         <div class="hero-container" data-lang-class="policies-hero">
