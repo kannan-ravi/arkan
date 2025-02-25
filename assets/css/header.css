@@ -125,6 +125,10 @@ header .header-nav-container .header-nav .logo img.english {
   color: white;
 }
 
+.header-navbar .nav-item .nav-call-us a {
+  color: var(--black0);
+}
+
 .header-navbar .h-line {
   width: 100%;
   min-height: 2px;
@@ -254,7 +258,7 @@ header .header-nav-container .header-nav .logo img.english {
 
   .header-top .location-contact-info .social-media a {
     text-decoration: none;
-    color: var(--gray);
+    color: #955302;
   }
 
   .header-nav {
@@ -303,11 +307,19 @@ header .header-nav-container .header-nav .logo img.english {
     font-weight: 700;
   }
 
+  .header-navbar .nav-item.hover {
+    transition: background-color 0.3s ease;
+  }
+
   .header-navbar .h-line {
     display: none;
   }
 
   .header-navbar .nav-item.active {
+    background-color: #fff3e6;
+  }
+
+  .header-navbar .nav-item.hover:hover {
     background-color: #fff3e6;
   }
 
@@ -342,6 +354,10 @@ header .header-nav-container .header-nav .logo img.english {
   }
   .header-top .location-contact-info .social-media {
     margin-right: 0rem;
+  }
+
+  .header-top .location-contact-info .social-media p {
+    color: var(--white);
   }
 
   .header-top .location-contact-info .location {
@@ -385,10 +401,10 @@ header .header-nav-container .header-nav .logo img.english {
     padding: 1.85rem 0.6rem;
   }
 
-  .header-navbar .nav-item i {
-    background-color: black;
+  .header-navbar .nav-item img {
+    background-color: var(--black);
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 0.6rem;
     margin: 0 0 0 0.5rem;
     color: var(--white);
   }

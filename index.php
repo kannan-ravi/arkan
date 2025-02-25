@@ -105,10 +105,10 @@
             </h2>
             <p class="explore-description" data-locale="home-explore-description-one">With over a decade of experience, we have built a reputation for delivering top-quality solutions across the UAE.</p>
             <p class="explore-description" data-locale="home-explore-description-two">At <b>Arkan Advanced Technical Group L.L.C S.P.C,</b> we are committed to delivering exceptional Construction, Maintenance, and Facility management, solutions bringing over a decade of experience to the UAE’s most prominent national clients.</p>
-            <div class="d-flex align-items-center justify-content-between mt-4 explore-button-wrapper">
+            <div class="d-flex align-items-center mt-4 explore-button-wrapper">
               <a href="./about.php" class="explore-button text-decoration-none" data-locale="home-explore-description-three">explore more</a>
               <div class="d-flex align-items-center explore-contact-info gap-2">
-                <i class="fa-solid fa-phone"></i>
+                <img src="./assets/icons/explore-phone-icon.svg" alt="explore phone icon">
                 <div class="explore-contact-info-content">
                   <p class="mb-0 small" style="margin-left: -3px;" data-locale="home-explore-consult">have a consultant</p>
                   <p class="mb-0">+97125539900</p>
@@ -159,7 +159,7 @@
           </div>
           <div class="counter-item">
             <div class="counter-icon">
-              <img src="./assets/img/home/counter/icon-02.svg" alt="counter icon" />
+              <img src="./assets/img/home/counter/icon-03.svg" alt="counter icon" />
             </div>
             <div class="counter-content">
               <p data-locale="home-counter-number-three" data-target="17">0+</p>
@@ -168,7 +168,7 @@
           </div>
           <div class="counter-item">
             <div class="counter-icon">
-              <img src="./assets/img/home/counter/icon-02.svg" alt="counter icon" />
+              <img src="./assets/img/home/counter/icon-04.svg" alt="counter icon" />
             </div>
             <div class="counter-content">
               <p data-locale="home-counter-number-four" data-target="1300">0+</p>
@@ -184,14 +184,14 @@
       <img src="./assets/img/home/faq/right-decoration.png" alt="Decoration Image" class="faq-decoration right" />
       <div class="container">
         <div class="serviceslist-container" data-lang-class="home-servicelist">
-          <div class="position-relative overflow-hidden rounded-3 servicelist-item-container">
+          <div class="position-relative rounded-3 servicelist-item-container">
             <div class="servicelist-item">
               <div class="servicelist-image">
                 <img src="./assets/img/home/servicelist/construction-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
                 <img src="./assets/img/home/servicelist/construction-services-icon.svg" alt="Arkan Construction Service Icon">
-                <h4 data-locale="home-servicelist-card-one-title">Construction Services</h4>
+                <h4 data-locale="home-servicelist-card-one-title">Construction <br> Services</h4>
                 <a href="./construction-services.php">Read More</a>
               </div>
             </div>
@@ -222,7 +222,7 @@
               </div>
             </div> -->
           </div>
-          <div class="position-relative overflow-hidden rounded-3 servicelist-item-container">
+          <div class="position-relative rounded-3 servicelist-item-container">
             <div class="servicelist-item">
               <div class="servicelist-image">
                 <img src="./assets/img/home/servicelist/facility-management-soft-services.png" alt="construction service image">
@@ -257,14 +257,14 @@
               </div>
             </div> -->
           </div>
-          <div class="position-relative overflow-hidden rounded-3 servicelist-item-container">
+          <div class="position-relative  rounded-3 servicelist-item-container">
             <div class="servicelist-item">
               <div class="servicelist-image">
                 <img src="./assets/img/home/servicelist/maintenance-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
                 <img src="./assets/img/home/servicelist/maintenance-services.svg" alt="Arkan Construction Service Icon">
-                <h4 data-locale="home-servicelist-card-three-title">Maintenance Services</h4>
+                <h4 data-locale="home-servicelist-card-three-title">Maintenance <br> Services</h4>
                 <a href="./maintenance-services.php">Read More</a>
               </div>
             </div>
@@ -584,7 +584,7 @@
       </div>
     </section>
 
-    <section class="mv-section">
+    <!-- <section class="mv-section">
       <div class="container">
         <div class="mv-wrapper" data-lang-class="home-mv">
           <div class="mv-container">
@@ -617,7 +617,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- <section class="team-section position-relative">
       <img src="./assets/img/home/faq/left-decoration.png" alt="Decoration Image" class="faq-decoration left" />
@@ -718,10 +718,10 @@
       </div>
     </section>-->
 
-    <section class="speecher-section" data-lang-class="about-speecher">
-      <!--<div class="speecher-title">
+    <!-- <section class="speecher-section" data-lang-class="about-speecher">
+      <div class="speecher-title">
         <h2 data-locale="about-speecher-title">General Manager's Speech</h2>
-      </div>-->
+      </div>
       <div class="team-title">
         <h2 data-locale="about-team-title">Meet Our Executive Team</h2>
       </div>
@@ -749,7 +749,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="form-section">
       <img src="./assets" alt="" />

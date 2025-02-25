@@ -30,9 +30,16 @@
   <main>
     <div class="loading"><img src="./assets/img/logo/logo-89px.png" alt="loading..."></div>
     <section class="hero-section">
-      <div class="container h-100">
-        <div class="hero-container" data-lang-class="policies-hero">
-          <h1 data-locale="policies-hero-title">Policies</h1>
+      <div class="container position-relative h-100">
+        <div class="hero-container" data-lang-class="dep-construction-hero">
+          <h1 data-locale="policies-hero-title">About Us</h1>
+          <nav aria-label="hero-breadcrumb">
+            <ol class="hero-breadcrumb">
+              <li class="hero-breadcrumb-item"><a href="./index.php" data-locale="dep-construction-breadcrumb-link-one">Home</a></li>
+              <p class="hero-breadcrumb-item mb-0">></p>
+              <li class="hero-breadcrumb-item active" aria-current="page" data-locale="policies-hero-title">Construction & Maintenance</li>
+            </ol>
+          </nav>
         </div>
       </div>
     </section>
@@ -204,7 +211,7 @@
               </div>
 
               <!-- <p data-locale="policies-contact-text">Do You Have Any Question, Just Contact Us To Get Help!</p> -->
-             <!-- <a href="" class="service-contact-button" data-locale="policies-contact-button">Contact Us</a>-->
+              <!-- <a href="" class="service-contact-button" data-locale="policies-contact-button">Contact Us</a>-->
             </div>
           </div>
         </div>

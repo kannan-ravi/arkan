@@ -33,9 +33,18 @@
   <main>
     <div class="loading"> <img src="./assets/img/logo/logo-89px.png" alt=""></div>
     <section class="hero-section">
-      <div class="container h-100">
-        <div class="hero-container" data-lang-class="about-hero">
-          <h1 data-locale="about-hero-title">About Us</h1>
+      <div class="hero-section">
+        <div class="container position-relative h-100">
+          <div class="hero-container" data-lang-class="dep-construction-hero">
+            <h1 data-locale="about-hero-title">About Us</h1>
+            <nav aria-label="hero-breadcrumb">
+              <ol class="hero-breadcrumb">
+                <li class="hero-breadcrumb-item"><a href="./index.php" data-locale="dep-construction-breadcrumb-link-one">Home</a></li>
+                <p class="hero-breadcrumb-item mb-0">></p>
+                <li class="hero-breadcrumb-item active" aria-current="page" data-locale="about-hero-title">Construction & Maintenance</li>
+              </ol>
+            </nav>
+          </div>
         </div>
       </div>
     </section>

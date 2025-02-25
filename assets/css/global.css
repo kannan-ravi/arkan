@@ -3,7 +3,7 @@
 :root {
   --orange: rgba(251, 140, 3, 1);
   --white: rgba(255, 255, 255, 1);
-  --black: rgba(0, 0, 0, 1);
+  --black: #383838;
   --gray: rgba(128, 128, 128, 1);
 
   --ff-english: "Lato", serif;

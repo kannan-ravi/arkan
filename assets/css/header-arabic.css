@@ -136,6 +136,10 @@ header.arabic .header-top-container {
     .social-media {
     margin: 0 0 0 6rem;
   }
+
+  header.arabic .header-top .location-contact-info .social-media p {
+    color: var(--black);
+  }
 }
 
 @media (min-width: 1400px) {
@@ -144,5 +148,21 @@ header.arabic .header-top-container {
   }
   header.arabic .header-nav-container .header-nav {
     background: linear-gradient(45deg, var(--white) 23%, var(--orange) 23%);
+  }
+  header.arabic
+    .header-nav-container
+    .header-nav
+    .header-navbar
+    .nav-list
+    .nav-item:last-child {
+    padding: 0;
+  }
+  header.arabic
+    .header-nav-container
+    .header-nav
+    .header-navbar
+    .nav-list
+    .nav-item {
+    padding: 1.95rem 1rem;
   }
 }

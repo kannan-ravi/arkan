@@ -1,10 +1,15 @@
 /* HERO STYLE */
+.hero-container.arabic {
+  left: unset;
+  right: 20px;
+}
+
 .hero-container.arabic h1 {
   direction: rtl;
 }
 
-.hero-container.arabic h1::before {
-  background-image: linear-gradient(135deg, var(--gray) 50%, var(--orange) 50%);
+.hero-container.arabic .hero-breadcrumb {
+  direction: rtl;
 }
 
 /* SERVICE STYLE */

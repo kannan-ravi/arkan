@@ -29,9 +29,20 @@
   <main>
     <div class="loading"><img src="./assets/img/logo/logo-89px.png" alt="loading...">></div>
     <section class="hero-section construction">
-      <div class="container h-100">
-        <div class="hero-container" data-lang-class="services-construction-hero">
-          <h1 data-locale="service-construction-hero-title">Construction Services</h1>
+      <div class="hero-section">
+        <div class="container position-relative h-100">
+          <div class="hero-container" data-lang-class="dep-construction-hero">
+            <h1 data-locale="service-construction-hero-title">Construction Services</h1>
+            <nav aria-label="hero-breadcrumb">
+              <ol class="hero-breadcrumb">
+                <li class="hero-breadcrumb-item"><a href="./index.php" data-locale="dep-construction-breadcrumb-link-one">Home</a></li>
+                <p class="hero-breadcrumb-item mb-0">></p>
+                <li class="hero-breadcrumb-item"><a href="#" data-locale="service-construction-dropdown-title">Services</a></li>
+                <p class="hero-breadcrumb-item mb-0">></p>
+                <li class="hero-breadcrumb-item active" aria-current="page" data-locale="service-construction-hero-title">Construction Services</li>
+              </ol>
+            </nav>
+          </div>
         </div>
       </div>
     </section>

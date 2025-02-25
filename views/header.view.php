@@ -49,28 +49,28 @@
         <nav class="header-navbar">
           <i class="fa-solid fa-xmark close-button"></i>
           <ul class="nav-list">
-            <li class="nav-item <?= $page === 'index.php' || $page === '/' ? 'active' : '' ?>">
+            <li class="nav-item hover <?= $page === 'index.php' || $page === '/' ? 'active' : '' ?>">
               <a href="./index.php" class="nav-link" data-locale="header-link-one">Home</a>
             </li>
-            <li class="nav-item <?= $page === 'about.php' ? 'active' : '' ?>">
+            <li class="nav-item hover <?= $page === 'about.php' ? 'active' : '' ?>">
               <a href="./about.php" class="nav-link" data-locale="header-link-two">About Us</a>
             </li>
-            <li class="nav-item <?= $page === 'policies.php' ? 'active' : '' ?>">
+            <li class="nav-item hover <?= $page === 'policies.php' ? 'active' : '' ?>">
               <a href="./policies.php" class="nav-link" data-locale="header-link-three">Policies</a>
             </li>
-            <li class="nav-item <?= $page === 'construction-services.php' || $page === 'maintenance-services.php' || $page === 'facility-services.php' ? 'active' : '' ?>">
+            <li class="nav-item hover <?= $page === 'construction-services.php' || $page === 'maintenance-services.php' || $page === 'facility-services.php' ? 'active' : '' ?>">
               <a href="./construction-services.php" class="nav-link" data-locale="header-link-four">Services</a>
             </li>
-            <li class="nav-item <?= $page === 'construction-department.php' || $page === 'facility-management.php' || $page === 'finance-department.php' ||  $page === 'human-resources.php' || $page === 'accommodation-transportation.php' || $page === 'procurement.php' ? 'active' : '' ?>">
+            <li class="nav-item hover <?= $page === 'construction-department.php' || $page === 'facility-management.php' || $page === 'finance-department.php' ||  $page === 'human-resources.php' || $page === 'accommodation-transportation.php' || $page === 'procurement.php' ? 'active' : '' ?>">
               <a href="./construction-department.php" class="nav-link" data-locale="header-link-five">Departments</a>
             </li>
             <li class="nav-item d-none d-xl-flex align-items-lg-center gap-2">
-              <i class="fa-solid fa-comments"></i>
-              <div>
+              <img src="./assets/icons/header-call-us.svg" alt="Header Call us" />
+              <div class="nav-call-us">
                 <p class="mb-0" data-locale="header-call-us">Call Us</p>
-                <p class="mb-0">
+                <a href="tel:+97125539900" class="mb-0 text-decoration-none">
                   +97125539900
-                </p>
+                </a>
               </div>
             </li>
           </ul>
