@@ -68,7 +68,7 @@
               <img src="./assets/icons/header-call-us.svg" alt="Header Call us" />
               <div class="nav-call-us">
                 <p class="mb-0" data-locale="header-call-us">Call Us</p>
-                <a href="tel:+97125539900" class="mb-0 text-decoration-none">
+                <a href="tel:+97125539900" class="mb-0 text-decoration-none no-preloader">
                   +97125539900
                 </a>
               </div>

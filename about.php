@@ -50,10 +50,9 @@
     </section>
 
     <section class="who-section" data-lang-class="about-who">
-      <div class="who-title">
-        <h2 data-locale="about-who-title">Who We Are</h2>
-      </div>
+
       <div class="container">
+        <h2 data-locale="about-who-title" class="fw-semibold">Who We Are</h2>
         <div class="who-container">
           <div class="who-content-container">
             <p data-locale="about-para-one">We are a specialized group providing comprehensive solutions in Construction, Maintenance and Facility Management Soft Services across the UAE. With over 10 years of experience, we offer innovative and effective services to meet the needs of clients across various sectors.</p>
@@ -161,12 +160,11 @@
         <div class="team-slider-container">
 
 
-          <!-- Slider main container -->
     <!--<div class="swiper" id="team-slider">
-            <!-- Additional required wrapper -->
-    <!--<div class="swiper-wrapper">
-              <!-- Slides -->
-    <!--<div class="swiper-slide">
+
+    <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
                 <div class="d-flex align-items-center justify-content-center team-card-wrapper">
                   <div class="team-card">
                     <div class="team-card-image"></div>

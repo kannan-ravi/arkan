@@ -115,6 +115,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", function (event) {
+      if (this.classList.contains("no-preloader")) {
+        return;
+      }
       event.preventDefault();
       const href = this.getAttribute("href");
 

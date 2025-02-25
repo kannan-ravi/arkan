@@ -46,10 +46,8 @@
 
     <section class="policy-section" data-lang-class="policies-content">
       <div class="policy">
-        <div class="policy-heading">
-          <h2 data-locale="policies-content-one-title">Quality Policy Statement</h2>
-        </div>
         <div class="container">
+          <h2 data-locale="policies-content-one-title" class="fw-semibold">Quality Policy Statement</h2>
           <div class="policy-content">
             <div class="policy-texts">
               <p data-locale="policies-content-one-para-one">Arkan Construction, Maintenance & Facility Management is committed to meeting all client and regulatory requirements at all times and at minimal cost. All employees are responsible for the quality of work carried out in, Arkan Construction, Maintenance & Facility Management Soft Services. They have the authority to ensure that quality requirements are fully met, improve our design quality, maintain the group’s competitive edge, satisfy clients, and comply with the standards defined in international regulations.</p>
@@ -93,11 +91,9 @@
           </div>
         </div>
       </div>
-      <div class="policy two">
-        <div class="policy-heading">
-          <h2 data-locale="policies-content-two-title">QHSE Policy</h2>
-        </div>
-        <div class="container">
+      <div class="policy two">\
+          <div class="container">
+          <h2 data-locale="policies-content-two-title" class="fw-semibold">QHSE Policy</h2>
           <div class="policy-content">
             <div class="policy-texts">
               <p data-locale="policies-content-two-para-one">QUALITY, HEALTH, SAFETY & ENVIRONMENT (QHSE) POLICY</p>

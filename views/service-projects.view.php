@@ -1,9 +1,7 @@
 <section class="projects-section" data-lang-class="services-construction-projects">
-  <div class="projects-title">
-    <h2 data-locale="service-construction-projects-title">Our Projects</h2>
-  </div>
   <div class="container">
-    <div class="projects-container">
+    <h2 data-locale="service-construction-projects-title" class="fw-semibold">Our Projects</h2>
+      <div class=" projects-container">
       <div class="projects-content">
         <p data-locale="service-construction-projects-content-one">Arkan Advanced Technical Group L.L.C S.P.C has successfully completed over 30 high-value projects, with a total worth of approximately AED 300 million.</p>
         <p data-locale="service-construction-projects-content-two">Our portfolio includes a commendable range of military infrastructure projects, showcasing our capacity to handle the large-scale developments.</p>
@@ -25,6 +23,6 @@
           </div>
         </div>
       </div>
-    </div>
+  </div>
   </div>
 </section>
