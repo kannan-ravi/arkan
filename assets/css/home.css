@@ -100,6 +100,7 @@
   font-size: 1.9rem;
   line-height: 1.5;
   font-weight: 700;
+  color: var(--black);
 }
 
 .explore-title span {
@@ -344,7 +345,7 @@
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.servicelist-card img {
+.servicelist-card-icon {
   padding: 10px;
   background-color: var(--orange);
   border-radius: 50%;
@@ -355,6 +356,14 @@
   position: absolute;
   top: -25px;
   right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicelist-card-icon img {
+  width: 32px;
+  height: 32px;
 }
 
 .servicelist-card h4 {
@@ -595,6 +604,7 @@
   position: relative;
   width: fit-content;
   font-weight: 600;
+  color: var(--black);
 }
 
 .services-title::before {

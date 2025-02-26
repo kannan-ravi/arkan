@@ -20,7 +20,8 @@
       <div class="request-contact-container">
         <div class="request-contact">
           <div class="request-contact-icon">
-            <i class="fa-solid fa-map-location-dot"></i>
+            <!-- <i class="fa-solid fa-map-location-dot"></i> -->
+            <img src="./assets/icons/service-request-location.svg" alt="Location Icon">
           </div>
           <div class="request-contact-info">
             <a href="" class="contact-info-one" data-locale="service-construction-request-contact-one">Visit Us <i class="fa-solid fa-up-right-from-square"></i></a>
@@ -29,7 +30,8 @@
         </div>
         <div class="request-contact">
           <div class="request-contact-icon">
-            <i class="fa-solid fa-envelope"></i>
+            <!-- <i class="fa-solid fa-envelope"></i> -->
+            <img src="./assets/icons/service-request-email.svg" alt="Email Icon">
           </div>
           <div class="request-contact-info">
             <p class="contact-info-one" data-locale="service-construction-request-contact-two">Email Us</p>
@@ -38,7 +40,8 @@
         </div>
         <div class="request-contact">
           <div class="request-contact-icon">
-            <i class="fa-solid fa-phone"></i>
+            <!-- <i class="fa-solid fa-phone"></i> -->
+            <img src="./assets/icons/service-request-call.svg" alt="Call Icon">
           </div>
           <div class="request-contact-info">
             <p class="contact-info-one" data-locale="service-construction-request-contact-three">Call Us</p>

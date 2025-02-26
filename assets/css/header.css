@@ -126,7 +126,11 @@ header .header-nav-container .header-nav .logo img.english {
 }
 
 .header-navbar .nav-item .nav-call-us a {
-  color: var(--black0);
+  color: var(--black);
+}
+.header-navbar .nav-item .nav-call-us p {
+  color: var(--white);
+  font-size: 0.75rem;
 }
 
 .header-navbar .h-line {
@@ -246,6 +250,11 @@ header .header-nav-container .header-nav .logo img.english {
     align-items: center;
     gap: 0.5rem;
     font-size: 0.9rem;
+  }
+
+  .header-top .location-contact-info .location img {
+    width: 20px;
+    height: 20px;
   }
 
   .header-top .location-contact-info .social-media {

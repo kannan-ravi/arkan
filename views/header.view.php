@@ -9,7 +9,7 @@
         </div>
         <div class="location-contact-info">
           <div class="location">
-            <i class="fa-solid fa-location-dot"></i>
+            <img src="./assets/icons/header-location.svg" alt="Location Icon">
             <p class="mb-0" data-locale="header-address">Abu dhabi, United Arab Emirates</p>
           </div>
           <div class="social-media">
@@ -67,7 +67,7 @@
             <li class="nav-item d-none d-xl-flex align-items-lg-center gap-2">
               <img src="./assets/icons/header-call-us.svg" alt="Header Call us" />
               <div class="nav-call-us">
-                <p class="mb-0" data-locale="header-call-us">Call Us</p>
+                <p class="mb-0" data-locale="header-call-us">Call Us Anytime</p>
                 <a href="tel:+97125539900" class="mb-0 text-decoration-none no-preloader">
                   +97125539900
                 </a>

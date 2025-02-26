@@ -190,7 +190,9 @@
                 <img src="./assets/img/home/servicelist/construction-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
-                <img src="./assets/img/home/servicelist/construction-services-icon.svg" alt="Arkan Construction Service Icon">
+                <div class="servicelist-card-icon">
+                  <img src="./assets/img/home/servicelist/construction-services-icon.svg" alt="Arkan Construction Service Icon">
+                </div>
                 <h4 data-locale="home-servicelist-card-one-title">Construction <br> Services</h4>
                 <a href="./construction-services.php">Read More</a>
               </div>
@@ -228,7 +230,9 @@
                 <img src="./assets/img/home/servicelist/facility-management-soft-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
-                <img src="./assets/img/home/servicelist/facility-management-soft-services.svg" alt="Arkan Construction Service Icon">
+                <div class="servicelist-card-icon">
+                  <img src="./assets/img/home/servicelist/facility-management-soft-services.svg" alt="Arkan Construction Service Icon">
+                </div>
                 <h4 data-locale="home-servicelist-card-two-title">Facility Management Soft Services</h4>
                 <a href="./facility-services.php">Read More</a>
               </div>
@@ -263,7 +267,9 @@
                 <img src="./assets/img/home/servicelist/maintenance-services.png" alt="construction service image">
               </div>
               <div class="servicelist-card">
-                <img src="./assets/img/home/servicelist/maintenance-services.svg" alt="Arkan Construction Service Icon">
+                <div class="servicelist-card-icon">
+                  <img src="./assets/img/home/servicelist/maintenance-services.svg" alt="Arkan Construction Service Icon">
+                </div>
                 <h4 data-locale="home-servicelist-card-three-title">Maintenance <br> Services</h4>
                 <a href="./maintenance-services.php">Read More</a>
               </div>

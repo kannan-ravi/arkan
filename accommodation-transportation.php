@@ -35,9 +35,9 @@
             <nav aria-label="hero-breadcrumb">
               <ol class="hero-breadcrumb">
                 <li class="hero-breadcrumb-item"><a href="#" data-locale="dep-construction-breadcrumb-link-one">Home</a></li> 
-                <p class="hero-breadcrumb-item mb-0 mt-1">></p>
+                <p class="hero-breadcrumb-item mb-0">></p>
                 <li class="hero-breadcrumb-item"><a href="#" data-locale="dep-construction-breadcrumb-link-two">Department</a></li>
-                <p class="hero-breadcrumb-item mb-0 mt-1">></p>
+                <p class="hero-breadcrumb-item mb-0">></p>
                 <li class="hero-breadcrumb-item active" aria-current="page" data-locale="dep-acc-hero-title">Accommodation & Transportation
               </ol>
             </nav>
